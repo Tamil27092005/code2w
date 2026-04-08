@@ -24,7 +24,7 @@ license: MIT
 
 # ─── Environment API ──────────────────────────────────────────────────────────
 api:
-  base_url: "http://localhost:7860"
+  base_url: "https://TamilSelvan0709-code2w-space.hf.space"
   endpoints:
     reset:
       method: POST
@@ -158,7 +158,7 @@ tasks:
     name: "Identify Top Stock"
     difficulty: easy
     max_steps: 5
-    max_total_reward: 5.0
+    max_total_reward: 1.0
     description: >
       Given live market data for the TECHNOLOGY sector (5 NSE stocks),
       identify the single best stock to BUY today.
@@ -176,7 +176,7 @@ tasks:
     name: "Create SEBI-Compliant Trade Plan"
     difficulty: medium
     max_steps: 8
-    max_total_reward: 8.0
+    max_total_reward: 1.0
     description: >
       Given a stock pitch for Infosys (INFY.NS) at Rs.1,545, create a
       SEBI-compliant trade plan. Requirements:
@@ -200,7 +200,7 @@ tasks:
     name: "Full Multi-Agent Pipeline"
     difficulty: hard
     max_steps: 15
-    max_total_reward: 15.0
+    max_total_reward: 1.0
     description: >
       Orchestrate the complete Swarm-architecture pipeline across 3 sectors:
       1. Analyst agent: analyze each sector (tech, energy, healthcare)
@@ -222,12 +222,12 @@ tasks:
       - "CIPLA.NS"
     expected_baseline_score: 0.55
     reward_stages:
-      sector_analysis:     0.21   # Steps 1-3: 0.07 per sector
+      sector_analysis:      0.21  # Steps 1-3: 0.07 per sector
       supervisor_selection: 0.10  # Steps 4-6: best pick selected
-      trade_plan:          0.15   # Steps 7-9: complete trade plan
-      compliance:          0.15   # Steps 10-11: SEBI checks
-      judge_scoring:       0.20   # Steps 12-13: score/10
-      final_recommendation: 0.35  # Steps 14-15: completeness
+      trade_plan:           0.15  # Steps 7-9: complete trade plan
+      compliance:           0.15  # Steps 10-11: SEBI checks
+      judge_scoring:        0.20  # Steps 12-13: score/10
+      final_recommendation: 0.19  # Steps 14-15: completeness
     success_threshold: 0.50
 
 # ─── Reward Function ──────────────────────────────────────────────────────────
@@ -275,6 +275,6 @@ docker:
       - PORTFOLIO_SIZE_INR    # Default: 100000
 
 huggingface:
-  space_url: "https://huggingface.co/spaces/your-username/stocky-openenv"
+  space_url: "https://huggingface.co/spaces/TamilSelvan0709/code2w_space"
   sdk: docker
   tags: [openenv, finance, multi-agent, india]
