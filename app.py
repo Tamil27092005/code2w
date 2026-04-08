@@ -644,7 +644,9 @@ async def health():
             "tasks": list(TASKS.keys()), "active_sessions": len(sessions)}
 
 @app.post("/reset", response_model=StepResult)
-async def reset_env(req: ResetRequest):
+async def reset_env(req: ResetRequest = None):
+    if req is None:
+        req = ResetRequest()
     """Reset the environment and start a new episode."""
     task_name = req.task or "full_pipeline_recommendation"
     if task_name not in TASKS:
