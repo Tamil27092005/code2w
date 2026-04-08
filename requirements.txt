@@ -1,0 +1,31 @@
+# Stocky OpenEnv — Python Dependencies
+# OpenEnv server + optional live pipeline dependencies
+
+# ─── Core OpenEnv server ──────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.1
+httpx==0.27.0
+
+# ─── Optional: live stock market data ─────────────────────────────────────────
+# These are used by agent_pipeline.py (original Stocky pipeline)
+# Comment out if you only need the OpenEnv server
+yfinance==0.2.40
+feedparser==6.0.11
+requests==2.31.0
+
+# ─── Optional: live LLM agents (Groq) ─────────────────────────────────────────
+# Needed only if running the full agent_pipeline.py
+groq==0.9.0
+tiktoken==0.7.0
+
+# ─── Optional: RAG / vector store ────────────────────────────────────────────
+chromadb==0.4.24
+sentence-transformers==2.7.0
+onnxruntime==1.18.1
+
+# ─── Baseline inference: OpenAI client ────────────────────────────────────────
+openai>=1.30.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-multipart==0.0.9

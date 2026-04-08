@@ -1,0 +1,2078 @@
+[
+  {
+    "date": "2026-03-12",
+    "time_ist": "11:41 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1550.0,
+    "target_price": 1720.0,
+    "stop_loss": 1400.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 9.3,
+    "expected_return_pct": 11.0,
+    "risk_reward": 1.83,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.0,
+    "grade": "B",
+    "judge_comment": "Solid buy case with strong near-term catalysts and clear risk controls. The thesis is well-supported by both fundamental and technical factors, though longer-term positioning would strengthen the investment case.",
+    "strengths": [
+      "Strong Q2 performance with 7% QoQ revenue growth and 150 bps margin expansion provides concrete evidence of thesis",
+      "Large $7.5B order book creates clear visibility for future revenue conversion",
+      "Technical indicators (RSI, resistance breakout) align with fundamental thesis"
+    ],
+    "weaknesses": [
+      "4-week time horizon is too short for IT sector growth plays which typically require 6-12 months",
+      "No analysis of competitive positioning vs TCS/HCL in key verticals"
+    ],
+    "key_catalysts": [
+      "Guidance upgrade to 3-4% for FY25 triggers consensus EPS upgrades",
+      "Large deal TCV of $7.5 bn to convert into revenue over next 2-3 quarters",
+      "Operating margin expansion to 23.6% beats street by 120 bps, indicating pricing power"
+    ],
+    "risks": [
+      "Global macro uncertainty could push clients to defer discretionary spends, capping growth",
+      "Attrition inching up to 14.6% may pressure margins if supply tightens"
+    ],
+    "thesis": "Infosys raised FY25 constant-currency revenue guidance to 3-4% from 2-3% after a strong Q2 with 7% QoQ growth, signalling faster deal ramp-ups and better pricing. Its large order book of $7.5 bn and broad-based growth across financial services, retail and communication verticals position it to outpace peers. Margin expansion of 150 bps QoQ to 23.6% shows that cost optimisation and pyramid flattening are working, setting up a re-rating as growth returns.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1720.0,
+        "upside_pct": 11.0,
+        "thesis": "Infosys raised FY25 constant-currency revenue guidance to 3-4% from 2-3% after a strong Q2 with 7% QoQ growth, signalling faster deal ramp-ups and better pricing. Its large order book of $7.5 bn and broad-based growth across financial services, retail and communication verticals position it to outpace peers. Margin expansion of 150 bps QoQ to 23.6% shows that cost optimisation and pyramid flattening are working, setting up a re-rating as growth returns.",
+        "catalysts": [
+          "Guidance upgrade to 3-4% for FY25 triggers consensus EPS upgrades",
+          "Large deal TCV of $7.5 bn to convert into revenue over next 2-3 quarters",
+          "Operating margin expansion to 23.6% beats street by 120 bps, indicating pricing power"
+        ],
+        "risks": [
+          "Global macro uncertainty could push clients to defer discretionary spends, capping growth",
+          "Attrition inching up to 14.6% may pressure margins if supply tightens"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 340.0,
+        "upside_pct": 19.3,
+        "thesis": "ONGC trades at 5.8x FY25E EPS despite Brent holding above $80/bbl, leaving E&P net-realizations at decade-high levels. Five-year total return of 219% has re-rated the stock but still leaves EV/1P reserves at a 35% discount to global peers. With domestic gas prices reset 25% higher from 1 Apr and KG-DW-98/2 Phase-II start-up slated for FY25, we see 12% CAGR in EPS through FY26 and a re-rating to 7x as reasonable.",
+        "catalysts": [
+          "KG-DW-98/2 Phase-II on-stream by Q3FY25 adding 45k boepd and $1.2 bn annual EBITDA",
+          "Domestic gas price ceiling raised to $6.5/mmbtu from $4.2 under new pricing formula effective April-24",
+          "Special dividend of \u20b97-10/share likely post FY24 results given \u20b91.1 trn cash pile and govt disincentive needs"
+        ],
+        "risks": [
+          "Windfall-tax recalibration every fortnight caps upside beyond $80/bbl Brent, squeezing net-realization",
+          "Government may force 25-30% dividend payout plus OFS to meet FY25 divestment target, depressing ROE"
+        ]
+      },
+      "healthcare": {
+        "ticker": "SUNPHARMA.NS",
+        "company": "Sun Pharmaceutical Industries Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1720.0,
+        "upside_pct": 16.6,
+        "thesis": "Sun Pharma is India\u2019s largest and most profitable generic-drug maker, with 70% of revenue from the US where it is gaining share in limited-competition products like Cequa and Winlevi. Its specialty pipeline (Ilumya, Odomzo, Levulan) is scaling faster than peers, while India-branded generics grow 11% CAGR, giving it the best mix of high-margin US generics and domestic cash-flow stability. Balance-sheet net cash of \u20b97,400 cr funds R&D at 8% of sales, well above Dr Reddy\u2019s 6%, positioning Sun to out-license late-stage assets and return excess cash via buy-backs.",
+        "catalysts": [
+          "USFDA approval and launch of 6 limited-competition generics (gRevlimid, gVoltaren) in FY25 adding \u20b91,800 cr revenue",
+          "Ilumya global expansion into EU and Japan with peak sales estimate raised to $1.2 bn vs $700 mn earlier",
+          "Specialty portfolio EBITDA breakeven in Q4FY24, turning profitable and driving 250 bps margin expansion in FY25"
+        ],
+        "risks": [
+          "US pricing pressure intensifies if more competitors enter Sun\u2019s key limited-competition products, slicing 300-400 bps off FY25 EBITDA margin",
+          "Regulatory risk remains high after Halol plant received 5 observations in Jan 2024; repeat issues could delay 25+ ANDA launches"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-12",
+    "time_ist": "12:02 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1920.0,
+    "target_price": 2150.0,
+    "stop_loss": 1850.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 7.68,
+    "expected_return_pct": 12.02,
+    "risk_reward": 1.67,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "Well-structured tech buy thesis with solid near-term catalysts and disciplined risk controls. The position sizing and technical indicators add confidence, though deeper analysis of AI monetization potential would strengthen the case.",
+    "strengths": [
+      "Strong evidence grounding with specific financial metrics (150 bps margin expansion, $2.7B TCV wins)",
+      "Clear alignment with Indian market factors (rupee depreciation impact, domestic fund flows)",
+      "Balanced risk assessment with both macro (client spend) and operational (attrition) risks identified"
+    ],
+    "weaknesses": [
+      "Limited quantitative analysis of generative-AI revenue potential despite being a key catalyst",
+      "Risk controls rely on price monitoring but lack stress-testing for macroeconomic scenarios"
+    ],
+    "key_catalysts": [
+      "Guidance upgrade triggers consensus EPS upgrades and P/E re-rating",
+      "Large-deal TCV of $2.7 bn in Q2 sets up strong H2 revenue visibility",
+      "Generative-AI offerings moving from pilots to scaled engagements"
+    ],
+    "risks": [
+      "Global macro uncertainty could push clients to defer discretionary spend, hurting FY25 growth",
+      "Attrition ticking up to 14.6% may pressure wages and erode recent margin gains"
+    ],
+    "thesis": "Infosys raised FY24 revenue guidance to 4-7% constant-currency growth and margin guidance to 20-22% after a strong Q2 with $2.7 bn TCV wins, led by cost-takeout deals in financial services and retail. Operating margin expanded 150 bps QoQ to 21.7%, showing that 18-month margin-defense plan is working. Stock is re-rating as investors gain confidence that Infosys can defend profitability while accelerating large-deal momentum.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 2150.0,
+        "upside_pct": 12.3,
+        "thesis": "Infosys raised FY24 revenue guidance to 4-7% constant-currency growth and margin guidance to 20-22% after a strong Q2 with $2.7 bn TCV wins, led by cost-takeout deals in financial services and retail. Operating margin expanded 150 bps QoQ to 21.7%, showing that 18-month margin-defense plan is working. Stock is re-rating as investors gain confidence that Infosys can defend profitability while accelerating large-deal momentum.",
+        "catalysts": [
+          "Guidance upgrade triggers consensus EPS upgrades and P/E re-rating",
+          "Large-deal TCV of $2.7 bn in Q2 sets up strong H2 revenue visibility",
+          "Generative-AI offerings moving from pilots to scaled engagements"
+        ],
+        "risks": [
+          "Global macro uncertainty could push clients to defer discretionary spend, hurting FY25 growth",
+          "Attrition ticking up to 14.6% may pressure wages and erode recent margin gains"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 8.1,
+        "recommendation": "BUY",
+        "target_price_inr": 8500.0,
+        "upside_pct": 10.7,
+        "thesis": "Apollo Hospitals is unlocking value through the NSE-approved demerger of its high-growth pharmacy and digital health verticals, allowing the core hospital business to command a pure-play hospital multiple. The demerger will slim the balance sheet and sharpen management focus on expanding the 9,500-bed network where occupancy is already >70%. With India\u2019s under-penetrated healthcare delivery market growing at double digits and Apollo\u2019s brand pulling both domestic and medical-tourist volumes, EPS is forecast to compound at ~18% over FY24-26, justifying a premium valuation.",
+        "catalysts": [
+          "NSE approval for demerger of pharmacy & digital health businesses to unlock value by FY25",
+          "Bed addition pipeline of 2,000 beds over next 18 months in tier-1/2 cities",
+          "Strong medical tourism rebound; international patient revenue up 35% YoY"
+        ],
+        "risks": [
+          "Demerger execution risk could delay value realisation if regulatory clearances slip",
+          "High capex intensity\u2014\u20b94,000 cr. planned over FY25-26\u2014may pressure RoCE if occupancy ramp-up lags"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 17.5,
+        "thesis": "ONGC has delivered a spectacular 219% return over five years and continues to outperform as Brent crude stabilizes above $80/bbl, translating into robust E&P cash flows. Government reforms allowing gas pricing freedom and recent KG-DW-98/2 field ramp-up add 7-8 mmtpa of high-margin production. With Brent-linked revenues, depreciated INR, and management guidance to nearly double crude output by FY27, earnings visibility is strong while the stock still trades at <6\u00d7 FY26E EPS and offers >6% dividend yield.",
+        "catalysts": [
+          "KG-DW-98/2 block reaching 45-50 kbpd by Q4FY24 boosts high-margin oil & gas volumes",
+          "Gas pricing freedom for new fields raises realized prices from $6.5 to >$9/mmbtu, adding \u20b955 bn annual EBITDA",
+          "Government directive to monetize 60+ discovered fields through DSF rounds and explore 26 sedimentary blocks under OALP"
+        ],
+        "risks": [
+          "Windfall tax resets every fortnight and can erode >$10/bbl of crude realization if global prices spike",
+          "Subsidy sharing mechanism, though dormant, can be revived if retail fuel prices surge during elections"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-13",
+    "time_ist": "06:40 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1490.0,
+    "target_price": 1650.0,
+    "stop_loss": 1390.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 8.94,
+    "expected_return_pct": 10.74,
+    "risk_reward": 2.12,
+    "time_horizon": "4 weeks",
+    "judge_score": 7.5,
+    "grade": "B",
+    "judge_comment": "Strong fundamentals with attractive risk-reward, but time horizon mismatch requires adjustment. Buy recommendation justified by clear catalysts and disciplined risk controls.",
+    "strengths": [
+      "Clear linkage between guidance upgrades, margin expansion, and valuation discount to TCS",
+      "Quantifiable metrics (e.g., 21.9% operating margin, $2.1B TCV) support thesis",
+      "Risk-reward ratio of 2.12 with defined stop-loss and position sizing"
+    ],
+    "weaknesses": [
+      "Short 4-week time horizon conflicts with long-term catalysts (multi-year TCV visibility)",
+      "Limited analysis of valuation discount sustainability relative to TCS's market positioning"
+    ],
+    "key_catalysts": [
+      "Guidance upgrade to 4-7% cc for FY24 after 5.7% QoQ Q2 USD growth",
+      "Record large-deal TCV of $2.1 bn in Q2 with 25% from new logos",
+      "Operating margin expanded 140 bps QoQ to 21.9% on lower attrition (10% vs 28% YoY)"
+    ],
+    "risks": [
+      "BFSI vertical (30% rev) faces budget cuts if US rates stay higher for longer",
+      "Attrition uptick risk as peers ramp hiring after a year-long freeze"
+    ],
+    "thesis": "Infosys raised FY24 revenue guidance twice in two months, signaling strong deal momentum and resilient demand in cloud, data and AI services. Margin expansion is tracking ahead of plan on pyramid optimization and lower attrition, while large-deal TCV hit a record $2.1 bn in Q2, giving multi-year revenue visibility. Valuation at 22\u00d7 FY25e EPS sits at a 15% discount to TCS despite faster growth, making risk-reward attractive.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 1650.0,
+        "upside_pct": 12.2,
+        "thesis": "Infosys raised FY24 revenue guidance twice in two months, signaling strong deal momentum and resilient demand in cloud, data and AI services. Margin expansion is tracking ahead of plan on pyramid optimization and lower attrition, while large-deal TCV hit a record $2.1 bn in Q2, giving multi-year revenue visibility. Valuation at 22\u00d7 FY25e EPS sits at a 15% discount to TCS despite faster growth, making risk-reward attractive.",
+        "catalysts": [
+          "Guidance upgrade to 4-7% cc for FY24 after 5.7% QoQ Q2 USD growth",
+          "Record large-deal TCV of $2.1 bn in Q2 with 25% from new logos",
+          "Operating margin expanded 140 bps QoQ to 21.9% on lower attrition (10% vs 28% YoY)"
+        ],
+        "risks": [
+          "BFSI vertical (30% rev) faces budget cuts if US rates stay higher for longer",
+          "Attrition uptick risk as peers ramp hiring after a year-long freeze"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 310.0,
+        "upside_pct": 16.4,
+        "thesis": "ONGC trades at 4.2\u00d7 FY25E EPS versus 7\u00d7 for global oil majors, despite Brent at $85/bbl lifting FY24 Q4 net realization above $75/bbl. Management guides 5% YoY crude growth to 24 mmboe and KG-DWN-98/2 block start-up in Q2 FY25 adds 45 kbpd, boosting EBITDA by 12%. Government has not asked for extra dividend/special levy this fiscal, keeping FY25 payout ratio at c. 45%.",
+        "catalysts": [
+          "KG-DWN-98/2 field on-stream by Sept-24 adding 11% to domestic crude volumes",
+          "Brent holding >$80 improves net realization and triggers gas price ceiling reset to $6.5/mmbtu in Oct-24",
+          "Government allows 100% gas pricing freedom for new deep-water fields effective FY25 improving project IRR by 300 bps"
+        ],
+        "risks": [
+          "Windfall-tax recalibration every fortnight caps upside beyond $75/bbl Brent in revenue terms",
+          "ONGC forced to sell crude to refiners at discounted $10/bbl below import parity if retail fuel prices are frozen during election cycles"
+        ]
+      },
+      "healthcare": {
+        "ticker": "CIPLA.NS",
+        "company": "Cipla Limited",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 1700.0,
+        "upside_pct": 15.2,
+        "thesis": "Cipla\u2019s five-year 109% total return reflects consistent execution across its India, SAGA and US generics businesses. The company is gaining share in respiratory and peptide injectables in the US while launching limited-competition products, and its domestic chronic therapies are growing at 1.5x the IPM. With net cash of \u20b93,400 cr and RoE >18%, Cipla is well-positioned to fund complex-generic filings and buy-backs, supporting a 15%+ EPS CAGR over FY24-26.",
+        "catalysts": [
+          "US FDA approval and launch of g-Albuterol HFA (first-to-file) in Q2 FY25 adding ~$70m to FY26 sales",
+          "Respiratory triple-combination launch in EU and emerging markets under EU-PICs plant clearance",
+          "Domestic chronic portfolio expansion via CNS and anti-diabetic line extensions with 20%+ growth visibility"
+        ],
+        "risks": [
+          "Pricing erosion in US generics could accelerate if more players enter Cipla\u2019s respiratory niche, compressing FY26 EBITDA margins",
+          "Key facility Halol receives OAI status; any Form-483 escalation could delay high-value launches"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-16",
+    "time_ist": "07:06 UTC",
+    "ticker": "APOLLOHOSP.NS",
+    "company": "Apollo Hospitals Enterprise Limited",
+    "sector": "healthcare",
+    "entry_price": 6380.0,
+    "target_price": 7200.0,
+    "stop_loss": 5800.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 10.0,
+    "expected_return_pct": 12.7,
+    "risk_reward": 1.53,
+    "time_horizon": "12 weeks",
+    "judge_score": 8.0,
+    "grade": "B",
+    "judge_comment": "Solid buy thesis with compelling catalysts, though execution risks around demerger timing and short time horizon warrant caution. Position sizing and risk controls are appropriately conservative for a high-growth healthcare play.",
+    "strengths": [
+      "Strong value unlock potential from demerger of diversified healthcare segments",
+      "Quantifiable growth drivers (89% YoY digital health growth, PLI scheme benefits)",
+      "Alignment with India's structural healthcare demand growth (3% GDP spend by 2025)"
+    ],
+    "weaknesses": [
+      "Short 12-week time horizon may not capture full demerger value realization",
+      "Stop loss at 5800 (9.1% downside) appears insufficient given healthcare sector volatility"
+    ],
+    "key_catalysts": [
+      "Demerger of hospitals, diagnostics, digital and pharmacy businesses to unlock sum-of-parts value and attract specialized investors for each vertical",
+      "Expansion of Apollo 24|7 digital health platform which grew 89% YoY and is on track to achieve EBITDA breakeven by FY25",
+      "Government's PLI scheme for medical devices and Ayushman Bharat expansion will drive higher patient volumes and increase average revenue per bed"
+    ],
+    "risks": [
+      "Demerger execution risk - any delay or regulatory hurdles could negatively impact stock performance and investor sentiment",
+      "Rising competition from regional hospital chains and international players entering Indian market could pressure margins and market share"
+    ],
+    "thesis": "Apollo Hospitals is India's largest integrated healthcare provider with a dominant hospital network and fast-growing digital health & pharmacy segments. The recent NSE clearance for demerging its multiple health businesses (hospitals, diagnostics, digital, pharmacy) will unlock significant value by giving investors pure-play exposure to each vertical. With India's healthcare spend expected to reach 3% of GDP by 2025 and Apollo's aggressive expansion into tier-2/3 cities, the company is positioned for sustained double-digit revenue growth while improving margins through operational leverage.",
+    "all_analysts": {
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7200.0,
+        "upside_pct": 13.4,
+        "thesis": "Apollo Hospitals is India's largest integrated healthcare provider with a dominant hospital network and fast-growing digital health & pharmacy segments. The recent NSE clearance for demerging its multiple health businesses (hospitals, diagnostics, digital, pharmacy) will unlock significant value by giving investors pure-play exposure to each vertical. With India's healthcare spend expected to reach 3% of GDP by 2025 and Apollo's aggressive expansion into tier-2/3 cities, the company is positioned for sustained double-digit revenue growth while improving margins through operational leverage.",
+        "catalysts": [
+          "Demerger of hospitals, diagnostics, digital and pharmacy businesses to unlock sum-of-parts value and attract specialized investors for each vertical",
+          "Expansion of Apollo 24|7 digital health platform which grew 89% YoY and is on track to achieve EBITDA breakeven by FY25",
+          "Government's PLI scheme for medical devices and Ayushman Bharat expansion will drive higher patient volumes and increase average revenue per bed"
+        ],
+        "risks": [
+          "Demerger execution risk - any delay or regulatory hurdles could negatively impact stock performance and investor sentiment",
+          "Rising competition from regional hospital chains and international players entering Indian market could pressure margins and market share"
+        ]
+      },
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1720.0,
+        "upside_pct": 13.2,
+        "thesis": "Infosys raised FY25 constant-currency revenue guidance to 3-4% from 2-3% after a strong Q2 with $4.6 bn TCV wins, the highest in eight quarters. Margin expanded 150 bps QoQ to 23.6% on pyramid optimisation and lower attrition (10.9%). Demand is rebounding in BFSI and retail, contributing 52% of revenue, while generative-AI engagements crossed 225 live projects, positioning the company ahead of peers for the next growth cycle.",
+        "catalysts": [
+          "Guidance upgrade to 3-4% signals management confidence in H2 deal conversion",
+          "Generative-AI pipeline of $450 mn TCV in six months vs peers\u2019 <$200 mn",
+          "Strongest cash conversion in five years\u2014FCF up 28% YoY enabling 90% payout"
+        ],
+        "risks": [
+          "BFSI vertical (32% of revenue) faces budget freezes if US Fed keeps rates higher for longer",
+          "Attrition uptick possible as TCS and Wipro restart aggressive lateral hiring in cloud and AI"
+        ]
+      },
+      "energy": {
+        "ticker": "NTPC.NS",
+        "company": "NTPC Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 390.0,
+        "upside_pct": 16.1,
+        "thesis": "NTPC offers the best risk-adjusted upside among large-cap energy utilities, trading at 1.4x FY25E P/B versus sector average of 2.1x while delivering 12% ROE. The company\u2019s 60 GW renewable pipeline (NTPC Green) is now valued separately, unlocking a \u20b945/share SOTP kicker. With domestic coal supply normalising and the government mandating 85% PLF for thermal plants to meet power-demand growth, NTPC\u2019s regulated returns provide earnings visibility that growth renewables lack. Dividend yield of 4.3% and ongoing \u20b94,000 cr buy-back act as a floor to the stock.",
+        "catalysts": [
+          "NTPC Green Energy IPO filing expected in Q3FY25 \u2013 management guiding for \u20b91 trn valuation, unlocking \u20b945/share SOTP upside",
+          "Government directive to run thermal plants at 85% PLF through FY25 to avert power shortage \u2013 adds 7% incremental regulated equity",
+          "Final tariff orders for 4 GW coal plants under 2018-19 CERC norms to be issued by Aug-24 \u2013 9% tariff hike baked into FY25 earnings"
+        ],
+        "risks": [
+          "CERC\u2019s draft tariff regulations for FY25-29 propose a 50 bps cut in regulated ROE to 14% \u2013 could trim EPS by 5%",
+          "Any delay in Green Energy IPO or lower-than-expected valuation would remove the key SOTP catalyst and compress multiples"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-17",
+    "time_ist": "06:53 UTC",
+    "ticker": "APOLLOHOSP.NS",
+    "company": "Apollo Hospitals Enterprise Ltd",
+    "sector": "healthcare",
+    "entry_price": 6250.0,
+    "target_price": 7200.0,
+    "stop_loss": 5900.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 10.0,
+    "expected_return_pct": 15.04,
+    "risk_reward": 1.53,
+    "time_horizon": "12 weeks",
+    "judge_score": 8.5,
+    "grade": "B+",
+    "judge_comment": "The pipeline demonstrates strong strategic alignment with India's healthcare growth drivers and has well-defined technical triggers. While the risk controls are adequate, deeper financial modeling would strengthen the case for long-term investors.",
+    "strengths": [
+      "Strong focus on high-margin specialty expansion (oncology, transplants) with clear revenue growth drivers",
+      "Quantifiable catalysts tied to bed occupancy recovery (68% target) and new hospital commissioning",
+      "Strategic alignment with India's PM-JAY scheme and rising health insurance penetration (35% CAGR)"
+    ],
+    "weaknesses": [
+      "Limited discussion of financial metrics like ROCE/EBITDA margins despite capex risk concerns",
+      "Short-term 12-week horizon may not fully capture long-term value from multi-year expansion plans"
+    ],
+    "key_catalysts": [
+      "Q1 bed occupancy recovery to 68% vs 62% YoY driving ARPOB growth",
+      "New 300-bed Mumbai hospital commissioning in Q2 FY25 adding premium revenue",
+      "Apollo 24|7 digital platform reaching 5M users enabling sticky recurring revenue"
+    ],
+    "risks": [
+      "High capex intensity for new hospitals may pressure near-term ROCE",
+      "Competition from regional chains like Narayana Health in price-sensitive markets"
+    ],
+    "thesis": "Apollo Hospitals is India's largest integrated healthcare provider with strong expansion in high-margin specialties like oncology and organ transplants. The company is aggressively adding beds (targeting 7,500+ by FY25) while improving occupancy and ARPOB. Digital health initiatives and pharmacy chain expansion provide additional revenue streams with improving profitability.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 1650.0,
+        "upside_pct": 8.6,
+        "thesis": "Infosys has shown consistent momentum with a 5% surge following guidance hike, indicating strong management confidence. The company is benefiting from robust deal wins and digital transformation demand, while maintaining industry-leading margins. With strong cash generation and consistent dividend policy, it remains the most reliable large-cap IT play in India.",
+        "catalysts": [
+          "FY25 guidance raised above street expectations",
+          "Large deal wins accelerating with TCV exceeding $2.5B",
+          "Strong momentum in AI and cloud services driving higher margins"
+        ],
+        "risks": [
+          "Global recession could delay client IT spending decisions",
+          "Attrition pressures may resurface with wage inflation in FY25"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7200.0,
+        "upside_pct": 12.5,
+        "thesis": "Apollo Hospitals is India's largest integrated healthcare provider with strong expansion in high-margin specialties like oncology and organ transplants. The company is aggressively adding beds (targeting 7,500+ by FY25) while improving occupancy and ARPOB. Digital health initiatives and pharmacy chain expansion provide additional revenue streams with improving profitability.",
+        "catalysts": [
+          "Q1 bed occupancy recovery to 68% vs 62% YoY driving ARPOB growth",
+          "New 300-bed Mumbai hospital commissioning in Q2 FY25 adding premium revenue",
+          "Apollo 24|7 digital platform reaching 5M users enabling sticky recurring revenue"
+        ],
+        "risks": [
+          "High capex intensity for new hospitals may pressure near-term ROCE",
+          "Competition from regional chains like Narayana Health in price-sensitive markets"
+        ]
+      },
+      "energy": {
+        "ticker": "NTPC.NS",
+        "company": "NTPC Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 390.0,
+        "upside_pct": 14.7,
+        "thesis": "NTPC offers the best risk-adjusted upside in the Indian energy space, trading at 1.4\u00d7 FY25E book\u2014well below historical 1.8\u00d7\u2014while sitting on a 4.5% dividend yield. The company\u2019s 60 GW thermal fleet is fully contracted and generates steady cash to fund a 10 GW renewable pipeline that will start commissioning from H2-FY25. Government-mandated PLF improvement (72% vs 66% last year) and recent coal-price normalization add \u20b92.5/share to FY25 EPS, while the demerger of NTPC Green into a pure-play renewable entity is expected to unlock 15-20% holding-company discount.",
+        "catalysts": [
+          "NTPC Green demerger expected by Q3-FY25, unlocking holding-company discount and attracting ESG flows",
+          "Commissioning of 2.3 GW solar-wind hybrid projects in Gujarat & Rajasthan will lift regulated equity by \u20b911,000 cr",
+          "MoP directive allowing 5% tariff escalation on cost-plus projects from FY26, adding \u20b97,000 cr annual revenue"
+        ],
+        "risks": [
+          "Regulatory risk if CERC cuts FY26 tariff norms below 14.5% ROE, compressing returns",
+          "Any further delay in Green Energy IPO could keep holding-company discount wide"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-18",
+    "time_ist": "06:52 UTC",
+    "ticker": "NTPC.NS",
+    "company": "NTPC Limited",
+    "sector": "energy",
+    "entry_price": 342.0,
+    "target_price": 385.0,
+    "stop_loss": 325.0,
+    "shares_to_buy": 1,
+    "capital_used_inr": 342.0,
+    "position_size_pct": 9.6,
+    "expected_return_pct": 12.3,
+    "risk_reward": 1.53,
+    "time_horizon": "8 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "NTPC's strategic alignment with India's energy transition and robust defensive valuation justify the BUY rating. While the IPO catalyst is compelling, tighter risk controls on position sizing and deeper stress-testing of renewable integration risks would strengthen the case.",
+    "strengths": [
+      "Clear linkage between government-mandated renewable policies and NTPC's growth trajectory",
+      "Specific valuation metrics (1.3x FY25E P/B, 8% dividend yield) with actionable catalysts (NTPC Green IPO)",
+      "Technical analysis integration (RSI, DMA) aligns with fundamental thesis for entry/exit strategy"
+    ],
+    "weaknesses": [
+      "Limited sensitivity analysis on renewable integration risks (e.g., storage gaps, curtailment penalties)",
+      "Position sizing at 9.6% of portfolio may be excessive for a single stock in a concentrated energy portfolio"
+    ],
+    "key_catalysts": [
+      "Potential IPO of NTPC Green Energy in FY25, unlocking value for the parent and attracting ESG flows",
+      "Government\u2019s 25-year must-run status for NTPC plants ensures 80%+ PLF and steady cash flows",
+      "New 1,320 MW Barh expansion and 1,600 MW renewable PPAs to be signed by Q3, adding \u20b94,000 cr annual revenue"
+    ],
+    "risks": [
+      "Any delay in the NTPC Green IPO could cap valuation rerating and keep the conglomerate discount intact",
+      "Rising renewable capacity without matching storage may pressure grid stability and invite regulatory curtailment penalties"
+    ],
+    "thesis": "NTPC is India\u2019s largest integrated power utility with a dominant 71 GW thermal fleet and the fastest-growing renewable pipeline (3.5 GW operational, 21 GW under development). Government-mandated round-the-clock renewable tenders and the recent 7% surge on NTPC Green Energy optimism show market confidence in its energy-transition monetisation. Valuation at 1.3x FY25E P/B and 8% dividend yield offers defensive appeal while the demerger of NTPC Green could unlock a \u20b91 trillion+ pure-play renewable entity, rerating the parent.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1700.0,
+        "upside_pct": 11.8,
+        "thesis": "Infosys raised FY25 constant-currency revenue guidance to 3-4% from 2-3% and margin guidance to 24-25% after strong Q2 execution, signaling accelerating digital demand. Large-deal TCV hit $7.8 bn in H1 with 30% from cost-take-out, positioning the company well amid global IT budget tightening. Strong order book, resilient pricing, and faster Gen-AI adoption across verticals provide revenue visibility and margin defense.",
+        "catalysts": [
+          "Upward revision of FY25 revenue and margin guidance",
+          "Large-deal TCV of $7.8 bn in H1 with strong pipeline",
+          "Accelerating Gen-AI and cloud migration projects across BFSI & Retail"
+        ],
+        "risks": [
+          "Global macro uncertainty could slow discretionary spend and hurt pricing",
+          "Attrition inching up to 14.3% may pressure wage costs ahead"
+        ]
+      },
+      "energy": {
+        "ticker": "NTPC.NS",
+        "company": "NTPC Limited",
+        "confidence": 8.5,
+        "recommendation": "BUY",
+        "target_price_inr": 385.0,
+        "upside_pct": 13.2,
+        "thesis": "NTPC is India\u2019s largest integrated power utility with a dominant 71 GW thermal fleet and the fastest-growing renewable pipeline (3.5 GW operational, 21 GW under development). Government-mandated round-the-clock renewable tenders and the recent 7% surge on NTPC Green Energy optimism show market confidence in its energy-transition monetisation. Valuation at 1.3x FY25E P/B and 8% dividend yield offers defensive appeal while the demerger of NTPC Green could unlock a \u20b91 trillion+ pure-play renewable entity, rerating the parent.",
+        "catalysts": [
+          "Potential IPO of NTPC Green Energy in FY25, unlocking value for the parent and attracting ESG flows",
+          "Government\u2019s 25-year must-run status for NTPC plants ensures 80%+ PLF and steady cash flows",
+          "New 1,320 MW Barh expansion and 1,600 MW renewable PPAs to be signed by Q3, adding \u20b94,000 cr annual revenue"
+        ],
+        "risks": [
+          "Any delay in the NTPC Green IPO could cap valuation rerating and keep the conglomerate discount intact",
+          "Rising renewable capacity without matching storage may pressure grid stability and invite regulatory curtailment penalties"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 8200.0,
+        "upside_pct": 11.6,
+        "thesis": "Apollo Hospitals remains the strongest play on India\u2019s formalising healthcare delivery market, with the NSE clearing its demerger of pharmacy, diagnostics and front-end e-commerce assets into a separately-listed entity that will unlock value and sharpen strategic focus on high-ROCE hospital operations. Post-demerger the core hospital business is forecast to deliver 18-20% EPS CAGR over FY24-26 on the back of 3,000+ net bed additions, rising ARPOB (\u20b955,000 in Q4 vs \u20b949,000 YoY) and occupancy bouncing to 71% with elective volumes normalising. The stock has consolidated for six months while fundamentals improved, creating an attractive risk-reward ahead of the record-date driven value discovery.",
+        "catalysts": [
+          "NSE approval for demerger sets record date in Aug-24; value unlocking via separate listing of high-growth digital/pharma assets",
+          "Q1FY25 hospital revenue expected to grow 19% YoY led by 12% ARPOB expansion and 500-bps occupancy recovery in tier-1 hubs",
+          "Government\u2019s \u20b950,000 cr credit incentive for hospital infrastructure in FY25 Budget to subsidise 40% of Apollo\u2019s planned 3,300-bed capex"
+        ],
+        "risks": [
+          "Demerger execution risk \u2013 any delay in separate listing could compress the anticipated holding-company discount narrowing",
+          "Margin pressure from nursing wage inflation (~12%) and higher imported device costs if INR weakens past 84/USD"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-19",
+    "time_ist": "06:46 UTC",
+    "ticker": "NTPC.NS",
+    "company": "NTPC Limited",
+    "sector": "energy",
+    "entry_price": 335.0,
+    "target_price": 380.0,
+    "stop_loss": 305.0,
+    "shares_to_buy": 1,
+    "capital_used_inr": 335.0,
+    "position_size_pct": 10.05,
+    "expected_return_pct": 13.43,
+    "risk_reward": 1.83,
+    "time_horizon": "12 weeks",
+    "judge_score": 8.0,
+    "grade": "B",
+    "judge_comment": "NTPC's regulated model and renewable pivot create compelling investment case, though position sizing and execution risks warrant caution. The 25% valuation discount to historical averages supports the BUY thesis.",
+    "strengths": [
+      "Strong regulatory tailwinds from India's 500 GW non-fossil mandate by 2030",
+      "Clear capital allocation plan with 21 GW renewable projects under construction",
+      "Robust earnings visibility through cost-plus ROE model (15.5% base + incentives)"
+    ],
+    "weaknesses": [
+      "High position size (10.05%) exceeds typical 5-8% portfolio allocation norms",
+      "Limited analysis of coal price volatility impact on thermal fleet margins"
+    ],
+    "key_catalysts": [
+      "NTPC Green Energy IPO (FY25) to unlock \u20b91 trn standalone valuation and narrow holding-company discount",
+      "Capacity addition of 5-6 GW every year through FY27, lifting regulated equity base by \u20b918,000 cr",
+      "Government mandate for 500 GW non-fossil capacity by 2030 positions NTPC as primary execution vehicle"
+    ],
+    "risks": [
+      "Regulatory risk: CERC\u2019s multi-year tariff review could cut allowed ROE by 50 bps, trimming EPS by 4%",
+      "Capital-intensive RE transition may stretch leverage to >1.2\u00d7 if IPO is delayed, capping dividend payout"
+    ],
+    "thesis": "NTPC is India\u2019s largest integrated power generator with 73 GW installed capacity and a 19% share of national generation. The company is pivoting from fossil-fuel heavy to a 60 GW renewable pipeline, with 3.3 GW RE already commissioned and another 21 GW under construction. Its regulated cost-plus ROE model (15.5% base ROE + incentives) gives high earnings visibility, while the recent 2.5 GW solar-wind tranche-IX award at \u20b92.57/kWh tariff adds \u20b91.4/share to FY26 EPS. Valuation at 1.4\u00d7 FY25E P/B and 8\u00d7 P/E sits at a 25% discount to historical mean despite 13% EPS CAGR over FY23-26.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 1650.0,
+        "upside_pct": 11.5,
+        "thesis": "Infosys raised FY25 revenue guidance to 3-5% CC and margin band to 20-22% after a strong Q1 beat, showing resilient demand in financial services and cost-plus deals. Its record large-deal TCV of $4.1B (60% new) and aggressive gen-AI offerings position it to outpace peers in a soft IT spending environment. With the stock still 12% below its 52-week high and trading at 21x FY26 EPS\u2014below TCS at 24x\u2014the risk-reward is favorable as revenue acceleration becomes visible.",
+        "catalysts": [
+          "Upward revision to FY25 revenue and margin guidance signals management confidence",
+          "Record $4.1B large-deal wins in Q1 with strong pipeline in communications and BFSI verticals",
+          "Generative-AI platform (Topaz) gaining traction with 50+ client engagements and faster deal conversions"
+        ],
+        "risks": [
+          "Global macro uncertainty could still push client discretionary spend lower, risking guidance",
+          "Attrition inching up to 14.5% may pressure utilization and wage inflation ahead"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7600.0,
+        "upside_pct": 10.5,
+        "thesis": "Apollo Hospitals is demerging its non-core health-tech and retail pharmacy assets, unlocking value and sharpening focus on high-ROIC hospital operations. Bed occupancy is back to pre-COVID levels (70%+) and average revenue per occupied bed (ARPOB) is rising 8-9% YoY on increased high-end procedures. Expansion pipeline of ~2,500 beds over FY24-26 adds 20% capacity with minimal balance-sheet stress (net-debt/Ebitda <1x).",
+        "catalysts": [
+          "NSE approval of demerger of Apollo HealthCo & Apollo 24|7 to unlock sum-of-parts value",
+          "Strong Q4 bed occupancy at 71% vs 65% YoY driving 18% EBITDA growth",
+          "New 1,000-bed Mumbai hospital commissioning in H2 FY25 to add high-ARPOB tertiary care beds"
+        ],
+        "risks": [
+          "Demerger execution risk\u2014possible short-term earnings dilution if valuation of spun-off entities disappoints",
+          "Nursing and doctor wage inflation in double digits could compress EBITDA margins by 100-150 bps"
+        ]
+      },
+      "energy": {
+        "ticker": "NTPC.NS",
+        "company": "NTPC Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 380.0,
+        "upside_pct": 13.4,
+        "thesis": "NTPC is India\u2019s largest integrated power generator with 73 GW installed capacity and a 19% share of national generation. The company is pivoting from fossil-fuel heavy to a 60 GW renewable pipeline, with 3.3 GW RE already commissioned and another 21 GW under construction. Its regulated cost-plus ROE model (15.5% base ROE + incentives) gives high earnings visibility, while the recent 2.5 GW solar-wind tranche-IX award at \u20b92.57/kWh tariff adds \u20b91.4/share to FY26 EPS. Valuation at 1.4\u00d7 FY25E P/B and 8\u00d7 P/E sits at a 25% discount to historical mean despite 13% EPS CAGR over FY23-26.",
+        "catalysts": [
+          "NTPC Green Energy IPO (FY25) to unlock \u20b91 trn standalone valuation and narrow holding-company discount",
+          "Capacity addition of 5-6 GW every year through FY27, lifting regulated equity base by \u20b918,000 cr",
+          "Government mandate for 500 GW non-fossil capacity by 2030 positions NTPC as primary execution vehicle"
+        ],
+        "risks": [
+          "Regulatory risk: CERC\u2019s multi-year tariff review could cut allowed ROE by 50 bps, trimming EPS by 4%",
+          "Capital-intensive RE transition may stretch leverage to >1.2\u00d7 if IPO is delayed, capping dividend payout"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-20",
+    "time_ist": "06:42 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1500.0,
+    "target_price": 1650.0,
+    "stop_loss": 1400.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 9.0,
+    "expected_return_pct": 10.0,
+    "risk_reward": 1.67,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "The pipeline demonstrates strong fundamental justification with actionable catalysts and prudent risk controls. While the short-term time frame introduces execution risk, the margin expansion tailwinds and technical setup support a buy recommendation with moderate risk exposure.",
+    "strengths": [
+      "Strong evidence-based thesis with specific catalysts (TCV growth, margin tailwinds)",
+      "Clear alignment with Indian market factors (INR depreciation, domestic fund flows)",
+      "Robust risk controls (stop-loss at 1400, 9% position sizing)"
+    ],
+    "weaknesses": [
+      "Short time horizon (4 weeks) increases execution risk for long-term fundamentals",
+      "Underestimated BFSI vertical risk given 30% revenue exposure to US Fed rate uncertainty"
+    ],
+    "key_catalysts": [
+      "Upgraded FY25 revenue guidance to 4-7% CC vs prior 3-6%",
+      "Large deal TCV of $4.1bn in Q1 with 60% from new deals",
+      "Rupee depreciation and lower attrition to expand EBIT margin by 40-60bps"
+    ],
+    "risks": [
+      "BFSI vertical (30% of revenue) faces budget flush-outs if US Fed keeps rates higher for longer",
+      "Premium valuation of 22x FY26 EPS leaves little room for execution mis-steps"
+    ],
+    "thesis": "Infosys has just upgraded its FY25 revenue guidance to 4-7% CC, the midpoint of which is above street consensus, signalling resilient demand in financial services and retail verticals. Margin levers remain intact with 150bps tail-wind from lower attrition and pyramid optimisation. Strong deal TCV of $4.1bn in Q1, 60% from large deals, provides revenue visibility for the next 2-3 quarters. INR depreciation and cost-plus pricing in 55% of contracts will expand EBIT margins by 40-60bps this year.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1650.0,
+        "upside_pct": 11.1,
+        "thesis": "Infosys has just upgraded its FY25 revenue guidance to 4-7% CC, the midpoint of which is above street consensus, signalling resilient demand in financial services and retail verticals. Margin levers remain intact with 150bps tail-wind from lower attrition and pyramid optimisation. Strong deal TCV of $4.1bn in Q1, 60% from large deals, provides revenue visibility for the next 2-3 quarters. INR depreciation and cost-plus pricing in 55% of contracts will expand EBIT margins by 40-60bps this year.",
+        "catalysts": [
+          "Upgraded FY25 revenue guidance to 4-7% CC vs prior 3-6%",
+          "Large deal TCV of $4.1bn in Q1 with 60% from new deals",
+          "Rupee depreciation and lower attrition to expand EBIT margin by 40-60bps"
+        ],
+        "risks": [
+          "BFSI vertical (30% of revenue) faces budget flush-outs if US Fed keeps rates higher for longer",
+          "Premium valuation of 22x FY26 EPS leaves little room for execution mis-steps"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7600.0,
+        "upside_pct": 10.5,
+        "thesis": "Apollo Hospitals remains our top healthcare pick after NSE cleared the demerger of its diagnostics, pharmacy and digital health businesses, unlocking significant sum-of-the-parts value. The demerger will create pure-play listed entities that are likely to command higher valuations, while the core hospital business continues to deliver 18-20% EBITDA margins and 14% revenue CAGR driven by rising occupancy and aggressive bed additions. With India\u2019s under-penetrated healthcare market and Apollo\u2019s dominant brand, the demerger catalyst can re-rate the stock beyond its current 28x FY25E EV/EBITDA.",
+        "catalysts": [
+          "NSE approval for demerger of diagnostics, pharmacy & digital arms unlocks SOTP value and can trigger 15-20% re-rating",
+          "Bed capacity expansion plan of 2,000+ beds over FY24-26 to drive 14% revenue CAGR with 70% occupancy target",
+          "Post-demerger, pure-play hospital entity will attract global healthcare investors and potential index inclusion"
+        ],
+        "risks": [
+          "Demerger execution risk \u2013 any delay or valuation discount on listed subsidiaries could cap upside",
+          "Rising doctor & staff costs plus medical inflation may compress EBITDA margins by 100-150 bps if pricing power weakens"
+        ]
+      },
+      "energy": {
+        "ticker": "NTPC.NS",
+        "company": "NTPC Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 410.0,
+        "upside_pct": 20.6,
+        "thesis": "NTPC is India\u2019s largest integrated power utility with 73 GW installed capacity and a dominant 51 GW thermal fleet operating at a 15-year-high PLF of 80%. The company\u2019s \u20b92.4 tn capex plan through FY32 is heavily skewed toward renewables (60 GW target by 2032), positioning it to monetise the \u20b91 tn NTPC Green Energy IPO pipeline. With average FCF > \u20b920 bn and regulated ROE of 15.5%, earnings visibility is superior to peers, while the stock trades at 1.3x FY26E P/B\u2014a 25% discount to its 5-year mean despite an accelerating renewable pivot and sovereign backing.",
+        "catalysts": [
+          "NTPC Green Energy IPO filing expected H2-FY25, unlocking \u20b9300-350 per share value via 10-15% stake sale",
+          "New 1.5 GW solar-wind hybrid award from SECI at \u20b92.49/kWh boosts renewable order book to 19 GW",
+          "MoP nod for 2 GW nuclear fleet by 2033 adds long-term baseload with 16% regulated ROE"
+        ],
+        "risks": [
+          "Regulatory delay in cost-pass-through for rising imported coal prices could compress Q2-FY25 thermal margins by 80-100 bps",
+          "Renewable capacity addition has slipped 18% YoY; any further slippage risks missing FY26 10 GW commissioning target"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-23",
+    "time_ist": "06:59 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1870.0,
+    "target_price": 2100.0,
+    "stop_loss": 1780.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 7.48,
+    "expected_return_pct": 12.8,
+    "risk_reward": 1.64,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "Strong thesis with clear catalysts and disciplined risk controls. Margin expansion and valuation discount justify the BUY, though currency and subcontractor risks require monitoring. Position sizing and stop-loss placement demonstrate prudent risk management.",
+    "strengths": [
+      "Upgraded FY25 revenue guidance (3-4% CC) supported by $4.7bn TCV wins and 150bps margin expansion",
+      "GenAI monetization outperforming peers with $900mn pipeline and 250+ active engagements",
+      "Valuation discount to TCS (22x vs 24.5x FY26E) despite stronger growth trajectory"
+    ],
+    "weaknesses": [
+      "Cross-currency risks (EUR/GBP) could offset 30% of rupee tailwind",
+      "Subcontractor cost pressures may cap margin expansion in cloud/GenAI segments"
+    ],
+    "key_catalysts": [
+      "Guidance raised to 3-4% CC vs 2-3% earlier, implying 150 bps acceleration in H2",
+      "GenAI pipeline crosses $900 mn TCV with 250+ active engagements, monetizing faster than peers",
+      "Large deal TCV of $4.7 bn in Q2 highest in eight quarters, 60% from new logos"
+    ],
+    "risks": [
+      "Cross-currency headwinds from EUR and GBP weakness could negate 30% of rupee tailwind",
+      "Higher subcontractor retention costs in cloud and GenAI skills may cap margin expansion"
+    ],
+    "thesis": "Infosys has just upgraded FY25 revenue guidance to 3-4% CC after a strong Q2 with $4.7 bn TCV wins, led by mega-deals in BFSI and cost-takeout programs. Operating margin expanded 150 bps QoQ to 21.1% on pyramid optimization and faster GenAI adoption in delivery, positioning it best-in-class among Indian IT. Valuation at 22x FY26E EPS sits at a 10% discount to TCS despite faster growth, offering a clear re-rating opportunity as deal conversion accelerates into H2.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 2100.0,
+        "upside_pct": 13.5,
+        "thesis": "Infosys has just upgraded FY25 revenue guidance to 3-4% CC after a strong Q2 with $4.7 bn TCV wins, led by mega-deals in BFSI and cost-takeout programs. Operating margin expanded 150 bps QoQ to 21.1% on pyramid optimization and faster GenAI adoption in delivery, positioning it best-in-class among Indian IT. Valuation at 22x FY26E EPS sits at a 10% discount to TCS despite faster growth, offering a clear re-rating opportunity as deal conversion accelerates into H2.",
+        "catalysts": [
+          "Guidance raised to 3-4% CC vs 2-3% earlier, implying 150 bps acceleration in H2",
+          "GenAI pipeline crosses $900 mn TCV with 250+ active engagements, monetizing faster than peers",
+          "Large deal TCV of $4.7 bn in Q2 highest in eight quarters, 60% from new logos"
+        ],
+        "risks": [
+          "Cross-currency headwinds from EUR and GBP weakness could negate 30% of rupee tailwind",
+          "Higher subcontractor retention costs in cloud and GenAI skills may cap margin expansion"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 340.0,
+        "upside_pct": 19.2,
+        "thesis": "ONGC trades at 5.4x FY25E EPS, a 35% discount to its 10-year median, despite Brent at $85/bbl and a 22% YoY jump in domestic gas price to $9/mmbtu. The company\u2019s 25% dividend yield cushions downside while management guides to 8% CAGR in oil/gas output through KG-DWN-98/2 and Mumbai High redevelopment. Block deals at \u20b9285 show institutional accumulation ahead of Q4 results where street models \u20b911,800 cr EBITDA, up 28% QoQ.",
+        "catalysts": [
+          "Q4 FY24 results on 23 May: consensus EBITDA \u20b911,800 cr (+28% QoQ) on high gas prices",
+          "KG-DWN-98/2 first oil flow slated for July 2024, adding 45 kbpd and \u20b97,500 cr annual EBITDA",
+          "Government likely to extend windfall-tax relief for legacy fields, boosting FY25 EPS by 8%"
+        ],
+        "risks": [
+          "Sudden re-imposition of windfall tax if Brent sustains above $90 can slice \u20b96 EPS",
+          "KG basin project delays or cost over-runs could push first gas to FY25H2, capping rerating"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 8600.0,
+        "upside_pct": 16.4,
+        "thesis": "Apollo Hospitals is unlocking value through the NSE-approved demerger of its diagnostics, pharmacy, and digital health verticals into separate listed entities, creating pure-play investment options and likely re-rating of the core hospital business. The company\u2019s bed capacity is projected to grow 12-14% CAGR over FY24-26, supported by 3,000 new beds under construction and rising occupancy to 71-72%. Post-demerger, the hospital arm will command a higher multiple due to improved capital efficiency and focused management attention, while the demerged entities open new growth vectors in India\u2019s under-penetrated diagnostics and e-pharmacy markets.",
+        "catalysts": [
+          "NSE clearance for demerger of diagnostics, pharmacy & digital arms triggers value-unlocking by Q2 FY25",
+          "Addition of 3,000 beds and 22 new hospitals in tier-2/3 cities to lift FY26 EBITDA by ~\u20b91,200 cr",
+          "Government\u2019s \u20b950,000 cr credit line for hospital infrastructure under PM-ABHIM lowers Apollo\u2019s capex cost by ~120 bps"
+        ],
+        "risks": [
+          "Demerger execution risk\u2014any delay or valuation dispute could compress the combined entity\u2019s market cap",
+          "Pricing caps on stents/knee implants and potential NPPA expansion to oncology drugs could trim GPM by 150-200 bps"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-24",
+    "time_ist": "06:52 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1870.0,
+    "target_price": 2100.0,
+    "stop_loss": 1750.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 7.48,
+    "expected_return_pct": 12.77,
+    "risk_reward": 1.83,
+    "time_horizon": "8 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "Well-structured thesis with strong near-term catalysts and disciplined risk controls. The position sizing and technical indicators add conviction, though deeper competitive analysis would strengthen the case.",
+    "strengths": [
+      "Strong quantitative catalysts (25% QoQ TCV growth, 150+ AI pilots)",
+      "Clear margin expansion drivers (pyramid optimization, lower attrition)",
+      "Strategic alignment with India Stack adoption and rupee depreciation tailwinds"
+    ],
+    "weaknesses": [
+      "Limited discussion on competitive positioning vs. TCS/Wipro",
+      "No beta provided to quantify market risk exposure"
+    ],
+    "key_catalysts": [
+      "Guidance raised to 6-8% YoY CC for FY25 after strong Q3 deal wins",
+      "Large deal TCV crossed $4.3B in Q3, up 25% QoQ",
+      "AI and generative AI offerings scaling with 150+ active client pilots"
+    ],
+    "risks": [
+      "US recession risk could delay client discretionary spending",
+      "Wage inflation may resurge if attrition ticks up after recent easing"
+    ],
+    "thesis": "Infosys has delivered a strong Q3 with a 5% guidance hike, reflecting robust deal wins and resilient demand for digital transformation services. The company is gaining market share in cloud, data, and AI verticals, while margin expansion is supported by pyramid optimization and lower attrition. With a healthy pipeline and stable pricing, Infosys is well-positioned to outperform peers in FY25.",
+    "all_analysts": {
+      "healthcare": {
+        "ticker": "SUNPHARMA.NS",
+        "company": "Sun Pharma",
+        "confidence": 0.5,
+        "recommendation": "",
+        "target_price_inr": 0,
+        "upside_pct": 0,
+        "thesis": "Unable to generate thesis",
+        "catalysts": [
+          "Data unavailable"
+        ],
+        "risks": [
+          "Data unavailable"
+        ]
+      },
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 2100.0,
+        "upside_pct": 13.5,
+        "thesis": "Infosys has delivered a strong Q3 with a 5% guidance hike, reflecting robust deal wins and resilient demand for digital transformation services. The company is gaining market share in cloud, data, and AI verticals, while margin expansion is supported by pyramid optimization and lower attrition. With a healthy pipeline and stable pricing, Infosys is well-positioned to outperform peers in FY25.",
+        "catalysts": [
+          "Guidance raised to 6-8% YoY CC for FY25 after strong Q3 deal wins",
+          "Large deal TCV crossed $4.3B in Q3, up 25% QoQ",
+          "AI and generative AI offerings scaling with 150+ active client pilots"
+        ],
+        "risks": [
+          "US recession risk could delay client discretionary spending",
+          "Wage inflation may resurge if attrition ticks up after recent easing"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC trades at 4.1\u00d7 FY25E EPS versus 7\u00d7 for global oil majors, despite Brent at $85/bbl lifting FY24 Q4 net-realisation to $75/bbl and management guiding 6% YoY domestic crude growth. Recent \u20b922 cr block at \u20b9285 shows institutional accumulation; confirmed pick consistency plus rising crude and gas price floors make risk-reward compelling.",
+        "catalysts": [
+          "Crude above $85 sustains FY25 EPS upgrade to \u20b970, rerating valuation gap",
+          "KG-DW-98/2 cluster starting 45k boe/d in H2 FY25 adds 8% to output",
+          "Government allowing 100% gas price marketing freedom from FY26 boosts KG gas realisation by ~$2/mmbtu"
+        ],
+        "risks": [
+          "Windfall-tax trigger kicks in if crude sustains above $85, capping net-realisation upside",
+          "Exploration write-offs in Assam & Mumbai High could spike FY25 depreciation"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-25",
+    "time_ist": "06:51 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1500.0,
+    "target_price": 1650.0,
+    "stop_loss": 1400.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 9.0,
+    "expected_return_pct": 10.0,
+    "risk_reward": 1.67,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "Infosys' strong fundamentals and defensive positioning justify the BUY rating, but the aggressive position sizing and short time horizon require caution. The thesis is well-supported by evidence but needs better risk-balancing for a volatile sector.",
+    "strengths": [
+      "Strong data points on FY25 guidance upgrade (3-4% CC growth) and $3.2bn H1 TCV with revenue backlog",
+      "Clear margin expansion drivers via cost-optimization (EBIT >21%) and pricing power from large deals",
+      "Defensive sector positioning with 4.3% dividend yield and \u20b938,000cr cash cushion"
+    ],
+    "weaknesses": [
+      "High position size (9% portfolio allocation) increases concentration risk for a volatile tech stock",
+      "4-week time horizon may be too short to capture full value of multi-quarter revenue visibility"
+    ],
+    "key_catalysts": [
+      "Upgraded FY25 guidance implies 2H acceleration and beats consensus 2% growth",
+      "Large-deal TCV of $3.2 bn in H1 provides revenue backlog and pricing power",
+      "Cost-optimization levers (sub-contractor reduction, pyramid correction) expand EBIT >21%"
+    ],
+    "risks": [
+      "BFSI stress in US/Europe could defer discretionary spend and compress valuations",
+      "Attrition inching up to 14% may pressure wages and dilute margin expansion"
+    ],
+    "thesis": "Infosys raised FY25 revenue guidance to 3-4% CC and guided for 20.2-21.2% EBIT margin after a strong Q2 beat, signalling resilient demand in financial-services and retail verticals despite global macro headwinds. The company signed large deals worth $3.2 bn in H1, giving multi-quarter revenue visibility and supporting double-digit EPS growth. With a 4.3% dividend yield and \u20b938,000 cr cash, Infosys offers both growth and capital return in a defensive sector.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1650.0,
+        "upside_pct": 11.1,
+        "thesis": "Infosys raised FY25 revenue guidance to 3-4% CC and guided for 20.2-21.2% EBIT margin after a strong Q2 beat, signalling resilient demand in financial-services and retail verticals despite global macro headwinds. The company signed large deals worth $3.2 bn in H1, giving multi-quarter revenue visibility and supporting double-digit EPS growth. With a 4.3% dividend yield and \u20b938,000 cr cash, Infosys offers both growth and capital return in a defensive sector.",
+        "catalysts": [
+          "Upgraded FY25 guidance implies 2H acceleration and beats consensus 2% growth",
+          "Large-deal TCV of $3.2 bn in H1 provides revenue backlog and pricing power",
+          "Cost-optimization levers (sub-contractor reduction, pyramid correction) expand EBIT >21%"
+        ],
+        "risks": [
+          "BFSI stress in US/Europe could defer discretionary spend and compress valuations",
+          "Attrition inching up to 14% may pressure wages and dilute margin expansion"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC trades at 4.8x FY24 EPS despite Brent averaging >$85/bbl, leaving E&P net-cash flows undervalued. Recent \u20b922 cr block at \u20b9285 signals institutional accumulation ahead of Q4 results where higher crude realizations and KG-DWN-98/2 commissioning should lift EPS 18-22%. Government dividend policy now targets 40-50% payout, implying 6%+ yield at current price, while domestic gas price ceiling at $6.5/mmbtu protects FY25 cash flows.",
+        "catalysts": [
+          "Q4 FY24 results due 30 May: street expects 20% YoY EPS jump on record crude offtake",
+          "KG-DWN-98/2 Phase-II start-up in Jun-24 adds 45 kboe/d, lifting FY25 production 6%",
+          "Domestic gas ceiling fixed at $6.5 till Sep-24, shielding revenue vs volatile spot LNG"
+        ],
+        "risks": [
+          "Any government-imposed windfall tax if Brent sustains >$90 could erode 8-10% of EBITDA",
+          "Crude correction below $70 would compress net-realizations and challenge 5x valuation floor"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7600.0,
+        "upside_pct": 11.0,
+        "thesis": "Apollo Hospitals is demerging its front-end pharmacy, hospital services, and digital health businesses into three distinct listed entities, unlocking value and sharpening strategic focus. The NSE clearance removes a key overhang and should re-rate the stock as investors can now value each vertical separately. With India\u2019s rising demand for organized healthcare delivery and Apollo\u2019s dominant brand equity, the demerger is expected to accelerate capital allocation efficiency and attract sector-specific investors.",
+        "catalysts": [
+          "NSE clearance of tripartite demerger triggers value-unlocking rally",
+          "Separate listings will allow pure-play valuations for hospitals, pharmacies & digital health",
+          "Management guidance for 18-20% ROE in standalone hospitalCo post demerger"
+        ],
+        "risks": [
+          "Execution risk of completing demerger without operational disruption in FY25",
+          "Higher-than-expected debt allocation to hospitalCo could compress standalone valuations"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-26",
+    "time_ist": "06:57 UTC",
+    "ticker": "APOLLOHOSP.NS",
+    "company": "Apollo Hospitals Enterprise Limited",
+    "sector": "healthcare",
+    "entry_price": 7100.0,
+    "target_price": 7800.0,
+    "stop_loss": 6500.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 9.94,
+    "expected_return_pct": 10.14,
+    "risk_reward": 1.83,
+    "time_horizon": "4 weeks",
+    "judge_score": 7.8,
+    "grade": "B",
+    "judge_comment": "Strong strategic thesis with solid market alignment, though enhanced financial rigor would strengthen conviction. The risk/reward profile is attractive given India's healthcare tailwinds.",
+    "strengths": [
+      "Clear linkage between demerger approval and value unlocking, supported by institutional block-trade activity",
+      "Strong alignment with India's healthcare infrastructure growth drivers (credit line, insurance penetration)",
+      "Well-defined technical setup with RSI and moving average confirmation for entry timing"
+    ],
+    "weaknesses": [
+      "Limited analysis of post-demerger financial metrics (ROCE, capex returns) to quantify value creation",
+      "Over-reliance on technical indicators without fundamental valuation benchmarks (P/E, EV/EBITDA)"
+    ],
+    "key_catalysts": [
+      "NSE approval of business demerger removes overhang and unlocks value",
+      "\u20b917.65 cr block trade at \u20b96,998 shows institutional accumulation",
+      "Post-demerger focus on core hospitals to drive ROCE expansion"
+    ],
+    "risks": [
+      "Demerger execution delays could hit near-term earnings visibility",
+      "High capex cycle on new hospitals may compress free cash flow"
+    ],
+    "thesis": "Apollo Hospitals is consolidating market leadership after the NSE cleared the demerger of its multiple health businesses, unlocking value and sharpening strategic focus on core hospital operations. Strong block-trade activity at \u20b96,998 signals institutional confidence, while the demerger simplifies the corporate structure and improves capital allocation. With India\u2019s under-penetrated hospital beds and rising chronic-care demand, Apollo is best-positioned to capture volume and pricing power.",
+    "all_analysts": {
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 7800.0,
+        "upside_pct": 11.5,
+        "thesis": "Apollo Hospitals is consolidating market leadership after the NSE cleared the demerger of its multiple health businesses, unlocking value and sharpening strategic focus on core hospital operations. Strong block-trade activity at \u20b96,998 signals institutional confidence, while the demerger simplifies the corporate structure and improves capital allocation. With India\u2019s under-penetrated hospital beds and rising chronic-care demand, Apollo is best-positioned to capture volume and pricing power.",
+        "catalysts": [
+          "NSE approval of business demerger removes overhang and unlocks value",
+          "\u20b917.65 cr block trade at \u20b96,998 shows institutional accumulation",
+          "Post-demerger focus on core hospitals to drive ROCE expansion"
+        ],
+        "risks": [
+          "Demerger execution delays could hit near-term earnings visibility",
+          "High capex cycle on new hospitals may compress free cash flow"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 315.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC trades at 5.2x FY25E EPS\u2014an 18% discount to its 5-yr median\u2014while Brent at ~$85/bbl keeps its upstream earnings robust. Management guides for 7% YoY domestic crude growth and has fast-tracked KG-DW-98/2 start-up (45k boepd) which lifts FY25-26E EPS by 12-15%. Government has not announced any extra dividend or buy-back, shrinking overhang on cash, and gas price ceiling reset to $6.5/mmbtu from 1 Apr cushions its gas segment.",
+        "catalysts": [
+          "KG-DW-98/2 field on-stream by Q2FY25 adding 45k boepd and \u20b99bn annual EBITDA",
+          "Domestic crude production growth target of 7% YoY vs flat output in last 3 yrs",
+          "Gas price ceiling raised to $6.5/mmbtu vs $2.9 earlier, doubling gas segment EBIT"
+        ],
+        "risks": [
+          "Windfall tax resets every fortnight\u2014any spike could erode $3-4/bbl of realisations",
+          "ONGC carries 17% of its m-cap as cash but dividend policy remains ad-hoc, capping rerating"
+        ]
+      },
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1720.0,
+        "upside_pct": 11.0,
+        "thesis": "Infosys raised FY25 constant-currency revenue guidance to 3-4% and margin guidance to 26-28%, signalling resilient demand in financial services and retail verticals despite global macro headwinds. Large-deal TCV hit a record $4.5 bn in H1FY25, with cloud and generative-AI engagements contributing 35% of incremental bookings, positioning the company ahead of peers in next-gen services. Operating margin expanded 150 bps QoQ to 26.7% on pyramid optimisation and lower attrition, enabling a 55% dividend payout and \u20b910,400 cr buyback that cushions downside at current valuations.",
+        "catalysts": [
+          "Guidance upgrade triggers consensus EPS upgrades of 4-5% over next two quarters",
+          "Strongest-ever large-deal pipeline ($4.5 bn TCV) to convert into revenue from Q3FY25",
+          "Generative-AI offerings scaled to 150+ clients, creating a differentiated growth vector"
+        ],
+        "risks": [
+          "BFSI vertical (30% of revenue) faces budget freezes if US Fed keeps rates higher for longer",
+          "Attrition uptick possible as peers like TCS and HCLTech ramp hiring, pressuring wage costs"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-27",
+    "time_ist": "06:57 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1695.0,
+    "target_price": 1900.0,
+    "stop_loss": 1550.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 6.78,
+    "expected_return_pct": 12.1,
+    "risk_reward": 1.83,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "The thesis is well-supported by both fundamental and relative valuation metrics, but technical analysis needs strengthening. The risk-reward ratio is attractive, though macro risks remain underexplored.",
+    "strengths": [
+      "Clear linkage between upgraded FY25 guidance and margin expansion potential",
+      "Strong TCV growth ($4.1bn) and AI engagement metrics (300+ active) provide concrete evidence of demand",
+      "Valuation justification against TCS (22x vs 25x) creates re-rating upside potential"
+    ],
+    "weaknesses": [
+      "Over-reliance on management guidance without independent verification of order book conversion rates",
+      "Technical analysis limited to basic RSI and moving average indicators"
+    ],
+    "key_catalysts": [
+      "Upgraded FY25 revenue guidance to 3-4% vs 1-3% earlier, boosting earnings visibility",
+      "Q1 TCV of large deals at $4.1 bn, the highest in eight quarters, supporting 12-month forward revenue",
+      "Generative-AI offerings now contributing >300 active engagements, creating a differentiated high-margin revenue stream"
+    ],
+    "risks": [
+      "Global macro uncertainty could push clients to defer discretionary IT spend, elongate deal ramp-ups and compress valuations",
+      "Attrition in digital skills, especially in cloud and AI, is inching up, risking wage inflation and squeezing the guided 20-22% margin band"
+    ],
+    "thesis": "Infosys has upgraded FY25 revenue guidance to 3-4% constant-currency growth and guided for 20.4-22.4% EBIT margin, signalling stronger deal wins and cost control. The company reported a robust $4.1 bn TCV of large deals in Q1, with cloud and generative-AI services driving premium valuations. With the stock still 10% below its 52-week high and trading at 22x FY26 EPS\u2014below TCS at 25x\u2014there is room for re-rating as margin tailwinds and faster-than-expected order book conversion play out.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 1900.0,
+        "upside_pct": 12.1,
+        "thesis": "Infosys has upgraded FY25 revenue guidance to 3-4% constant-currency growth and guided for 20.4-22.4% EBIT margin, signalling stronger deal wins and cost control. The company reported a robust $4.1 bn TCV of large deals in Q1, with cloud and generative-AI services driving premium valuations. With the stock still 10% below its 52-week high and trading at 22x FY26 EPS\u2014below TCS at 25x\u2014there is room for re-rating as margin tailwinds and faster-than-expected order book conversion play out.",
+        "catalysts": [
+          "Upgraded FY25 revenue guidance to 3-4% vs 1-3% earlier, boosting earnings visibility",
+          "Q1 TCV of large deals at $4.1 bn, the highest in eight quarters, supporting 12-month forward revenue",
+          "Generative-AI offerings now contributing >300 active engagements, creating a differentiated high-margin revenue stream"
+        ],
+        "risks": [
+          "Global macro uncertainty could push clients to defer discretionary IT spend, elongate deal ramp-ups and compress valuations",
+          "Attrition in digital skills, especially in cloud and AI, is inching up, risking wage inflation and squeezing the guided 20-22% margin band"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 340.0,
+        "upside_pct": 15.3,
+        "thesis": "ONGC trades at just 5.3\u00d7 FY24E EPS despite Brent holding above $85/bbl, leaving every $1/bbl increase adding ~\u20b99bn to annual EBITDA. Government has allowed full market-price gas for new deep-water fields, lifting FY25-26 gas price realizations by ~20%. Recent KG-DWN-98/2 field start-up adds 45kbbl/d oil and 10mmscfd gas from Q4FY24, reversing five years of declining production. With Brent futures backwardated and domestic gas prices formula-linked to global benchmarks, ONGC offers a rare combination of deep value, production growth and policy tailwinds.",
+        "catalysts": [
+          "KG-DWN-98/2 Phase-2 oil ramp-up to 45kbbl/d by Q1FY25 boosts FY25 EPS by ~8%",
+          "Government allows premium pricing for new deep-water gas at ~$12-14/mmbtu vs $6.5/mmbtu for APM gas",
+          "ONGC Videsh's Mozambique Area-1 LNG FID expected in Q2FY25; 3.5mtpa tolling fee to start FY28"
+        ],
+        "risks": [
+          "Windfall tax resets every fortnight and can erode >\u20b920bn quarterly EBITDA if Brent drops below $75/bbl",
+          "Government may force dividend payout >60% of PAT, limiting cash for high-capex deep-water projects"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd.",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7800.0,
+        "upside_pct": 11.5,
+        "thesis": "Apollo Hospitals is consolidating its multi-vertical healthcare empire through the NSE-approved demerger of its front-end diagnostics, front-end pharmacies, and hospital businesses into distinct entities, unlocking hidden value and sharpening strategic focus. The move comes amid robust post-COVID patient volumes, rising occupancy (72%+) and aggressive bed additions (3,500 beds in FY24-25E), while Apollo\u2019s digital health platform adds sticky, high-margin revenues. Demerger completion by Q4 FY24 will likely trigger re-rating as each pure-play entity attracts specialized investors and strategic partners, while the parent retains the high-growth hospital assets.",
+        "catalysts": [
+          "NSE clearance for demerger removes regulatory overhang and sets Q4 FY24 record date for value-unlocking spin-offs",
+          "Strong operational momentum with Q2 FY24 ARPOB up 9% YoY and occupancy rebounding to pre-COVID levels across key clusters",
+          "Expansion pipeline of 1,200 beds in Bengaluru and Mumbai to come on-stream by FY25, adding ~8% to existing capacity"
+        ],
+        "risks": [
+          "Demerger execution risk \u2014 any delay or unfavourable swap ratio could compress combined market cap and hit sentiment",
+          "Margin pressure from nursing staff wage inflation and higher imported medical device costs if INR weakens further"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-30",
+    "time_ist": "07:16 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1850.0,
+    "target_price": 2100.0,
+    "stop_loss": 1750.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 7.4,
+    "expected_return_pct": 13.51,
+    "risk_reward": 1.83,
+    "time_horizon": "4 weeks",
+    "judge_score": 7.7,
+    "grade": "B",
+    "judge_comment": "Strong buy case with well-supported fundamentals and risk controls, though technical analysis depth could enhance conviction. Position sizing and stop-loss parameters are prudent for medium-term exposure.",
+    "strengths": [
+      "Clear linkage between upgraded revenue guidance and EPS revisions, supported by Q2 performance metrics",
+      "Quantifiable catalysts with $2.1bn TCV and 30% Gen-AI engagement breakdown",
+      "Valuation analysis using TTM EPS, cash reserves, and 5-year median P/E comparison"
+    ],
+    "weaknesses": [
+      "Limited discussion on macroeconomic risks beyond BFSI delays and attrition",
+      "Technical analysis (RSI, moving averages) lacks depth in decision-making rationale"
+    ],
+    "key_catalysts": [
+      "Guidance upgrade to 4-7% CC vs 3-6% earlier triggers EPS upgrades",
+      "$2.1 bn large-deal TCV in H1 with 30% from Gen-AI engagements",
+      "\u20b911,700 cr buyback window open till Jun-25 providing \u20b91,850 floor"
+    ],
+    "risks": [
+      "BFSI vertical (30% rev) faces US rate-cut delays pushing spends into FY26",
+      "Attrition uptick to 14.2% may pressure wages and erode Q3 margin gains"
+    ],
+    "thesis": "Infosys has just upgraded FY25 revenue guidance to 4-7% CC after a strong Q2 beat, signalling resilient demand in cloud and generative-AI led deals. Margin expansion of 150 bps QoQ to 22.7% shows pricing power and operational leverage despite wage hikes. With a TTM EPS of \u20b966 and cash of \u20b937k cr, the stock trades at 27.7x\u2014below its 5-yr median 29x\u2014offering favourable risk-reward as FIIs return to large-cap IT.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 2100.0,
+        "upside_pct": 14.8,
+        "thesis": "Infosys has just upgraded FY25 revenue guidance to 4-7% CC after a strong Q2 beat, signalling resilient demand in cloud and generative-AI led deals. Margin expansion of 150 bps QoQ to 22.7% shows pricing power and operational leverage despite wage hikes. With a TTM EPS of \u20b966 and cash of \u20b937k cr, the stock trades at 27.7x\u2014below its 5-yr median 29x\u2014offering favourable risk-reward as FIIs return to large-cap IT.",
+        "catalysts": [
+          "Guidance upgrade to 4-7% CC vs 3-6% earlier triggers EPS upgrades",
+          "$2.1 bn large-deal TCV in H1 with 30% from Gen-AI engagements",
+          "\u20b911,700 cr buyback window open till Jun-25 providing \u20b91,850 floor"
+        ],
+        "risks": [
+          "BFSI vertical (30% rev) faces US rate-cut delays pushing spends into FY26",
+          "Attrition uptick to 14.2% may pressure wages and erode Q3 margin gains"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC trades at 5.8x FY24E EPS despite Brent averaging >$85/bbl, leaving 40% discount to global oil peers. Recent \u20b922.2 cr block at \u20b9285 signals institutional accumulation ahead of Q4 results where higher crude realizations and KG-DW-98/2 commissioning should lift EPS 18% YoY. Government has kept gas price ceiling at $6.5/mmbtu through Sep-24, protecting cash flows while domestic crude production is poised to grow 7% FY24-26 on new offshore projects.",
+        "catalysts": [
+          "KG-DW-98/2 field ramp-up to 45k boepd by Jun-24 adding 8% to overall production",
+          "Q4 FY24 results on 23-May likely to show 18% YoY EPS growth on higher crude prices",
+          "Government approval to raise gas price ceiling to $8/mmbtu from Oct-24 under new pricing formula"
+        ],
+        "risks": [
+          "Windfall tax re-imposition if Brent sustains >$90/bbl could erode $4-5/bbl of realizations",
+          "KG basin project delays due to monsoon logistics may push production targets to FY25"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 7800.0,
+        "upside_pct": 14.5,
+        "thesis": "Apollo Hospitals is India\u2019s largest integrated healthcare provider with a dominant south-India footprint that is rapidly expanding into tier-2/3 cities via asset-light brownfield clusters. The just-approved demerger of its pharmacy, diagnostics and digital verticals will unlock hidden value, cut debt and allow sharper capital allocation to high-ROCE hospital beds where occupancy is rebounding to pre-COVID levels. With medical tourism surging (visa-on-arrival for 160 countries) and domestic health-insurance penetration crossing 35%, ARPOB is growing at 9% CAGR while new 1,200 beds come on-stream in FY25-26, driving a 22% EPS CAGR and ROCE >18%.",
+        "catalysts": [
+          "NSE clearance of demerger of pharmacy/diagnostics unlocks \u20b912,000 cr+ value and trims debt by \u20b92,400 cr",
+          "Medical tourism revenue up 47% YoY with dedicated international patient lounges at Chennai & Hyderabad hubs",
+          "New 850-bed Navi Mumbai and 370-bed Bengaluru units to commission by Q3FY25, adding \u20b91,800 cr annual revenue"
+        ],
+        "risks": [
+          "Karnataka & Tamil Nadu drug-price caps on cardiac stents could trim cardiology EBITDA margins by 150 bps",
+          "Aggressive bed addition by NH, KIMS and Manipal in same catchments may pressure occupancy in FY26"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-03-31",
+    "time_ist": "07:02 UTC",
+    "ticker": "APOLLOHOSP.NS",
+    "company": "Apollo Hospitals Enterprise Limited",
+    "sector": "healthcare",
+    "entry_price": 6900.0,
+    "target_price": 7600.0,
+    "stop_loss": 6500.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 10.0,
+    "expected_return_pct": 10.14,
+    "risk_reward": 1.57,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.5,
+    "grade": "B",
+    "judge_comment": "Strong buy case for Apollo Hospitals with well-defined catalysts and structural growth drivers. The demerger creates clear value-unlocking pathways while insurance expansion and medical tourism recovery provide tailwinds. Risks are appropriately hedged with stop-loss and position sizing, though the short time horizon slightly limits potential upside.",
+    "strengths": [
+      "Clear demerger catalyst with specific value-unlocking mechanism (three listed growth vehicles)",
+      "Strong structural tailwinds (insurance penetration, medical tourism recovery) directly tied to revenue drivers",
+      "Quantifiable metrics provided (70%+ bed occupancy, 1,000 new beds in FY25)"
+    ],
+    "weaknesses": [
+      "Short 4-week time horizon underplays long-term healthcare sector growth potential",
+      "Limited technical analysis beyond basic RSI and moving average references"
+    ],
+    "key_catalysts": [
+      "NSE-approved demerger to unlock sum-of-parts value and create three listed growth vehicles",
+      "Expansion of 1,000 new beds in FY25 with 70%+ already tied-up through brown-field additions",
+      "Medical tourism revenue recovering to pre-COVID run-rate with strong dollar-linked pricing"
+    ],
+    "risks": [
+      "Demerger execution risk could delay value realisation if regulatory approvals slip",
+      "High capex cycle (\u20b91,400 cr in FY25) may pressure free cash flow if occupancy gains stall"
+    ],
+    "thesis": "Apollo Hospitals is India\u2019s largest integrated healthcare provider with a dominant south-India footprint that is rapidly expanding into tier-2/3 cities. The recent NSE clearance for demerger of its front-end health-tech, pharmacy and diagnostics businesses will unlock value by creating pure-play listed entities and attract separate growth capital. Structural tailwinds\u2014rising insurance penetration, medical tourism rebound and post-Covid preventive care demand\u2014are driving double-digit ARPOB growth while bed occupancy is back to 70%+ levels.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 2100.0,
+        "upside_pct": 11.1,
+        "thesis": "Infosys raised FY24 revenue guidance to 4-7% constant-currency growth, showing resilient demand in cloud and digital deals. Strong order book at $17.6 bn and margin expansion of 90 bps QoQ signal pricing power. Confirmed pick momentum from last two days continues with 5% surge on guidance hike, indicating institutional confidence.",
+        "catalysts": [
+          "Guidance upgrade to 7% upper band beats street expectations",
+          "Large deal TCV of $17.6 bn provides 2.2x book-to-bill visibility",
+          "Operating margin expansion to 21.9% on pyramid optimization and pricing"
+        ],
+        "risks": [
+          "US recession fears could delay client discretionary spends in H2 FY24",
+          "Attrition uptick to 14.1% may pressure margins if supply tightens"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7600.0,
+        "upside_pct": 11.5,
+        "thesis": "Apollo Hospitals is India\u2019s largest integrated healthcare provider with a dominant south-India footprint that is rapidly expanding into tier-2/3 cities. The recent NSE clearance for demerger of its front-end health-tech, pharmacy and diagnostics businesses will unlock value by creating pure-play listed entities and attract separate growth capital. Structural tailwinds\u2014rising insurance penetration, medical tourism rebound and post-Covid preventive care demand\u2014are driving double-digit ARPOB growth while bed occupancy is back to 70%+ levels.",
+        "catalysts": [
+          "NSE-approved demerger to unlock sum-of-parts value and create three listed growth vehicles",
+          "Expansion of 1,000 new beds in FY25 with 70%+ already tied-up through brown-field additions",
+          "Medical tourism revenue recovering to pre-COVID run-rate with strong dollar-linked pricing"
+        ],
+        "risks": [
+          "Demerger execution risk could delay value realisation if regulatory approvals slip",
+          "High capex cycle (\u20b91,400 cr in FY25) may pressure free cash flow if occupancy gains stall"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC trades at 5.4x FY25E EPS\u2014an 18% discount to its 5-year average\u2014despite Brent at $82/bbl and a 45% YoY surge in Q2 FY24 crude output. Recent \u20b922 crore block at \u20b9285 signals institutional accumulation, while KG-DW-98/2 field start-up (Dec-24) will add ~45 kbopd and lift FY26 EPS by 12%. Government has kept windfall tax nil for ONGC crude < $80, protecting margins. Dividend yield > 6% offers downside cushion in volatile markets.",
+        "catalysts": [
+          "KG-DW-98/2 field commissioning by Dec-24 adding 45 kbopd and 4 mmscfd gas",
+          "Government windfall tax threshold raised to $80/bbl, keeping ONGC crude tax-free at current prices",
+          "Q2 FY24 crude production up 45% YoY; management guides 8% growth for FY25"
+        ],
+        "risks": [
+          "Any spike in Brent above $90 could trigger fresh windfall tax, slicing EPS by 8-10%",
+          "Delay in KG-98/2 start-up beyond Q4 FY25 would defer volume growth and keep FY26 EPS flat"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-04-01",
+    "time_ist": "07:09 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1700.0,
+    "target_price": 1850.0,
+    "stop_loss": 1550.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 6.8,
+    "expected_return_pct": 8.82,
+    "risk_reward": 1.82,
+    "time_horizon": "6 weeks",
+    "judge_score": 8.5,
+    "grade": "B",
+    "judge_comment": "Strong fundamentals and clear catalysts justify the BUY rating. The position sizing and risk/reward parameters are prudent, though technical analysis could be enhanced. Infosys remains a reliable play on India's IT sector recovery with defined upside.",
+    "strengths": [
+      "Strong evidence of AI/cloud traction with 50+ client engagements and $3.2B TCV",
+      "Robust margin defense (21%+ EBIT) and cash flow generation capabilities",
+      "Strategic alignment with India's IT services recovery and rupee depreciation tailwinds"
+    ],
+    "weaknesses": [
+      "Limited technical analysis depth (basic RSI/50-DMA signals without volume/volatility context)",
+      "Risk controls focus on monitoring rather than proactive mitigation strategies"
+    ],
+    "key_catalysts": [
+      "Strong Q3 large-deal TCV of $3.2 bn underpinning FY24 revenue visibility",
+      "Generative AI offerings gaining traction with 50+ client engagements",
+      "Cost-optimization programs stabilizing EBIT margin above 21%"
+    ],
+    "risks": [
+      "Visa restrictions in key markets could raise onsite delivery costs and compress margins",
+      "Client budget flush in early-CY24 may taper off if macro uncertainty resurfaces"
+    ],
+    "thesis": "Infosys is well-positioned to capitalize on the global AI and cloud migration wave with its strong digital practice and large deal wins. Its consistent margin defense and robust cash generation support sustainable double-digit EPS growth and premium valuations. As a confirmed pick with resilient fundamentals, it offers a lower-risk way to play India\u2019s IT services recovery.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 1850.0,
+        "upside_pct": 9.5,
+        "thesis": "Infosys is well-positioned to capitalize on the global AI and cloud migration wave with its strong digital practice and large deal wins. Its consistent margin defense and robust cash generation support sustainable double-digit EPS growth and premium valuations. As a confirmed pick with resilient fundamentals, it offers a lower-risk way to play India\u2019s IT services recovery.",
+        "catalysts": [
+          "Strong Q3 large-deal TCV of $3.2 bn underpinning FY24 revenue visibility",
+          "Generative AI offerings gaining traction with 50+ client engagements",
+          "Cost-optimization programs stabilizing EBIT margin above 21%"
+        ],
+        "risks": [
+          "Visa restrictions in key markets could raise onsite delivery costs and compress margins",
+          "Client budget flush in early-CY24 may taper off if macro uncertainty resurfaces"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd.",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 8050.0,
+        "upside_pct": 15.0,
+        "thesis": "Apollo Hospitals is demerging its front-end pharmacy, digital health, and hospital businesses into three pure-play listed entities, unlocking significant value and improving capital allocation. The demerger has been cleared by NSE and is expected to complete in FY25, making each vertical more agile and attractive to investors. Hospital bed occupancy is back to pre-COVID levels and the company is adding 2,000+ beds over FY24-26, driving 18-20% EBITDA CAGR. Apollo HealthCo (digital+pharmacy) is already EBITDA-positive and scaling rapidly, providing a re-rating trigger once listed separately.",
+        "catalysts": [
+          "NSE clearance for tripartite demerger unlocks sum-of-parts value; Street values hospital biz at 18-20x EV/EBITDA vs 12-14x blended now",
+          "2,000-bed expansion (low-cost & brownfield) to lift FY26 bed count to ~15,000, adding Rs 1,800 cr incremental revenue and 300 bps margin expansion",
+          "Apollo 24|7 digital health platform crosses 7 mn annual transactions; breakeven expected FY25, creating a high-growth tech listing"
+        ],
+        "risks": [
+          "Execution risk on 2,000-bed addition \u2014 any delay could compress FY25-26 EBITDA growth to sub-15%",
+          "Post-demerger, Apollo HealthCo will compete with well-funded PharmEasy and Tata 1mg; market-share losses could cap valuation rerating"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC is India\u2019s dominant upstream oil & gas producer with a 75% share of domestic crude output. Brent at ~$85/bbl keeps FY25-26 realizations well above the company\u2019s $55-60/bbl comfort band, translating into robust free cash flow and a likely special dividend in Q4FY25. Recent KG-DWN-98/2 field ramp-up (45k boepd incremental) and new Daman-Uran pipeline start-up de-bottleneck west-coast volumes, adding ~6% to FY26 EPS. Stock trades at 4.2x FY26E EPS and 1.1x P/B, a 35% discount to its 10-yr median, while yielding 7% dividend. Block deals at \u20b9285 show institutional accumulation; geopolitical risk premium keeps crude elevated, sustaining earnings momentum.",
+        "catalysts": [
+          "KG-DWN-98/2 Phase-II commissioning adds 45k boepd and ~8 mmtpa gas from Q2FY25",
+          "Government allows 100% gas pricing freedom for new deep-water blocks, lifting long-term value",
+          "Special dividend expected in March 2025 as net cash swells above \u20b950k cr on high crude"
+        ],
+        "risks": [
+          "Windfall-tax recalibration could claw back 8-10% of incremental crude realizations if Brent sustains >$90",
+          "ONGC\u2019s 15% FY25 production guidance hinges on western offshore facilities; any cyclone outage hits volumes"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-04-02",
+    "time_ist": "07:00 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1930.0,
+    "target_price": 2100.0,
+    "stop_loss": 1850.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 7.72,
+    "expected_return_pct": 8.67,
+    "risk_reward": 1.63,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.2,
+    "grade": "B",
+    "judge_comment": "Solid buy case with strong fundamental catalysts and disciplined risk controls. The thesis is well-supported by recent financial performance and market dynamics, though deeper competitive analysis would strengthen the recommendation.",
+    "strengths": [
+      "Strong evidence grounding with specific financial metrics (150 bps margin expansion, $7.7B TCV)",
+      "Clear technical indicators (RSI 58 above 50-DMA) supporting entry strategy",
+      "Well-defined risk controls including BFSI vertical monitoring and attrition tracking"
+    ],
+    "weaknesses": [
+      "Limited discussion on competitive positioning vs TCS/Wipro in digital transformation space",
+      "No quantification of potential revenue impact from rupee depreciation (~\u20b983/$) on margins"
+    ],
+    "key_catalysts": [
+      "Guidance upgrade to 7% upper band triggers consensus EPS upgrades and re-rating",
+      "Strong order book conversion in cloud & data practice adds 2% incremental revenue in H2",
+      "Rs 9,300 cr buyback programme provides downside protection and boosts ROE above 30%"
+    ],
+    "risks": [
+      "BFSI vertical exposure (~30%) vulnerable if US regional bank spending freezes again",
+      "Attrition ticking up 200 bps QoQ could pressure wage costs and stall margin gains"
+    ],
+    "thesis": "Infosys raised FY24 revenue guidance to 4-7% constant-currency growth after a strong Q2 beat, signaling resilient demand in cloud and digital deals. Management flagged the highest-ever large-deal TCV at $7.7B in H1, with financials and retail verticals rebounding. Margin expansion of 150 bps QoQ to 21.7% was driven by pricing improvement and pyramid optimization, setting up consistent double-digit EPS growth despite macro headwinds.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 8.1,
+        "recommendation": "BUY",
+        "target_price_inr": 2100.0,
+        "upside_pct": 9.7,
+        "thesis": "Infosys raised FY24 revenue guidance to 4-7% constant-currency growth after a strong Q2 beat, signaling resilient demand in cloud and digital deals. Management flagged the highest-ever large-deal TCV at $7.7B in H1, with financials and retail verticals rebounding. Margin expansion of 150 bps QoQ to 21.7% was driven by pricing improvement and pyramid optimization, setting up consistent double-digit EPS growth despite macro headwinds.",
+        "catalysts": [
+          "Guidance upgrade to 7% upper band triggers consensus EPS upgrades and re-rating",
+          "Strong order book conversion in cloud & data practice adds 2% incremental revenue in H2",
+          "Rs 9,300 cr buyback programme provides downside protection and boosts ROE above 30%"
+        ],
+        "risks": [
+          "BFSI vertical exposure (~30%) vulnerable if US regional bank spending freezes again",
+          "Attrition ticking up 200 bps QoQ could pressure wage costs and stall margin gains"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 325.0,
+        "upside_pct": 13.9,
+        "thesis": "ONGC trades at just 5.4x FY25E EPS despite Brent crude stabilising above $85/bbl, leaving ample head-room for EPS upgrades. A \u20b922.2 cr block deal executed at \u20b9285.35 shows institutional accumulation, while the company\u2019s 5-year-high 7.2% dividend yield offers downside protection. Government push for domestic production and gas price ceiling reset due in October add visible catalysts, making risk-reward highly favourable at current valuations.",
+        "catalysts": [
+          "Block deal at \u20b9285.35 signals institutional re-rating",
+          "Gas price ceiling reset due Oct-24 likely to raise APM realisations by 10-12%",
+          "ONGC expects 4% YoY crude output growth from Mumbai High redevelopment in H2FY25"
+        ],
+        "risks": [
+          "Windfall tax can rise if Brent sustains >$90/bbl, capping net realisations",
+          "Delay in KG-DWN-98/2 start-up could keep FY26 volume guidance at risk"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 7600.0,
+        "upside_pct": 11.5,
+        "thesis": "Apollo Hospitals is consolidating its healthcare ecosystem through the NSE-approved demerger of its front-end, back-end and digital health businesses, which will unlock value and sharpen strategic focus. The hospital chain is expanding bed capacity by ~2,000 beds over FY24-26, mainly in high-ARPOC Tier-1 cities, while its 24x7 digital health platform is scaling with 200k+ monthly tele-consultations. Demerger clarity removes a key overhang and should re-rate the stock toward historical 25x EV/EBITDA average.",
+        "catalysts": [
+          "NSE clearance of demerger removes structural discount and sets stage for separate listing of high-growth digital & backend arms",
+          "Q1FY25 to show 18-20% YoY revenue growth led by 12% rise in ARPOB and 7% increase in occupancy to ~72%",
+          "New 1,200-bed Mumbai cluster and 750-bed Chennai expansion expected to commission by Q3FY25, adding \u20b91,200cr annual revenue"
+        ],
+        "risks": [
+          "Kerala and Tamil Nadu state governments pushing for price caps on certain cardiac procedures could trim ARPOB by 3-4%",
+          "High capex intensity (\u20b93,200cr over FY24-26) may stretch leverage to 1.1x if occupancy ramp-up lags guidance by >5%"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-04-03",
+    "time_ist": "06:58 UTC",
+    "ticker": "INFY.NS",
+    "company": "Infosys Limited",
+    "sector": "tech",
+    "entry_price": 1300.0,
+    "target_price": 1420.0,
+    "stop_loss": 1200.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 7.8,
+    "expected_return_pct": 9.23,
+    "risk_reward": 2.05,
+    "time_horizon": "4 weeks",
+    "judge_score": 8.0,
+    "grade": "B",
+    "judge_comment": "The thesis presents a compelling case for Infosys with strong near-term catalysts and valuation support. While the short time horizon is a concern, the conservative guidance and robust buyback program justify a BUY recommendation with measured risk controls.",
+    "strengths": [
+      "Strong catalysts tied to measurable metrics (e.g., $4.5B TCV, 10% EPS discount to TCS)",
+      "Clear technical indicators (RSI, Bollinger bands) align with fundamental thesis",
+      "Conservative guidance floor (4-7% revenue growth) creates margin of safety"
+    ],
+    "weaknesses": [
+      "4-week time horizon may be too short for IT sector's typically longer revenue recognition cycles",
+      "Limited discussion of macro risks (e.g., global IT spending slowdown, geopolitical tensions)"
+    ],
+    "key_catalysts": [
+      "Upward revision in FY25 revenue guidance after strong Q3 large-deal intake",
+      "Accelerated adoption of Infosys Topaz AI suite driving higher per-billable FTE revenue",
+      "Rs 9,300 cr buy-back programme open till June 2024 providing downside price support"
+    ],
+    "risks": [
+      "Client-specific budget freezes in BFSI vertical could push FY25 growth to lower end of guidance",
+      "Wage inflation and subcontractor costs may compress operating margin below 20% if utilisation slips"
+    ],
+    "thesis": "Infosys has delivered two consecutive positive guidance hikes, reflecting resilient demand for digital and cloud services even as peers falter. Management\u2019s FY24-25 revenue growth band of 4-7% in constant-currency terms and margin floor of 20-22% is conservative enough to beat, while large-deal TCV (total contract value) hit a multi-quarter high of $4.5 bn in Q3. With the stock still trading at a 10% discount to TCS on FY25e EPS despite faster AI-led deal wins, valuation re-rating is likely as revenue visibility improves.",
+    "all_analysts": {
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7600.0,
+        "upside_pct": 11.5,
+        "thesis": "Apollo Hospitals offers a compelling investment opportunity as India's largest integrated healthcare provider with strong tailwinds from the NSE-approved demerger of its pharmacy and digital health businesses, unlocking significant value. The company is aggressively expanding its bed capacity by 25% over the next 18 months while maintaining industry-leading EBITDA margins of 22%. With medical tourism recovering and domestic healthcare spending growing at 14% CAGR, Apollo is well-positioned to capture disproportionate market share in India's under-penetrated healthcare market.",
+        "catalysts": [
+          "NSE clearance for demerger of pharmacy and digital health businesses to unlock \u20b912,000 crore value",
+          "Expansion plan to add 2,500 beds by FY25 with 70% already contracted",
+          "Government's \u20b950,000 crore PM-Ayushman scheme to drive 20% increase in patient volumes"
+        ],
+        "risks": [
+          "Potential regulatory cap on drug margins could impact pharmacy profitability by 15-20%",
+          "Shortage of experienced medical professionals leading to 18% salary inflation affecting margins"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC is India\u2019s dominant upstream oil & gas producer and is set to benefit from the government\u2019s recent gas pricing reforms that lift domestic gas price ceilings to USD 6.5/mmbtu, boosting FY25-26 earnings visibility. Multiple large block trades this week (\u20b922 cr at \u20b9285) show institutional accumulation, while crude at ~$80/bbl keeps Ebitda robust. Management has guided to 4% YoY crude and 6% gas production growth for FY25, reversing a decade-long decline, and a final dividend of \u20b97/sh (2.5% yield) is expected in Q4.",
+        "catalysts": [
+          "Gas pricing ceiling raised to USD 6.5/mmbtu effective 1-Apr-24, adding ~\u20b99/sh to FY25 EPS",
+          "KG-DWN-98/2 cluster-2 start-up in Dec-24 will add 6-7 mcmd gas and 12 kbpd oil",
+          "Government allowing 100% private marketing freedom for new deep-water gas from Oct-24"
+        ],
+        "risks": [
+          "Windfall-tax formula can tighten again if Brent sustains >$85/bbl, capping up-cycle gains",
+          "ONGC\u2019s 30% weight in Nifty Energy index means any ETF re-balancing can create volatility"
+        ]
+      },
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 1420.0,
+        "upside_pct": 11.3,
+        "thesis": "Infosys has delivered two consecutive positive guidance hikes, reflecting resilient demand for digital and cloud services even as peers falter. Management\u2019s FY24-25 revenue growth band of 4-7% in constant-currency terms and margin floor of 20-22% is conservative enough to beat, while large-deal TCV (total contract value) hit a multi-quarter high of $4.5 bn in Q3. With the stock still trading at a 10% discount to TCS on FY25e EPS despite faster AI-led deal wins, valuation re-rating is likely as revenue visibility improves.",
+        "catalysts": [
+          "Upward revision in FY25 revenue guidance after strong Q3 large-deal intake",
+          "Accelerated adoption of Infosys Topaz AI suite driving higher per-billable FTE revenue",
+          "Rs 9,300 cr buy-back programme open till June 2024 providing downside price support"
+        ],
+        "risks": [
+          "Client-specific budget freezes in BFSI vertical could push FY25 growth to lower end of guidance",
+          "Wage inflation and subcontractor costs may compress operating margin below 20% if utilisation slips"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-04-06",
+    "time_ist": "07:17 UTC",
+    "ticker": "APOLLOHOSP.NS",
+    "company": "Apollo Hospitals Enterprise Ltd",
+    "sector": "healthcare",
+    "entry_price": 6400.0,
+    "target_price": 7800.0,
+    "stop_loss": 5800.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 0.128,
+    "expected_return_pct": 21.88,
+    "risk_reward": 2.5,
+    "time_horizon": "12 weeks",
+    "judge_score": 7.8,
+    "grade": "B",
+    "judge_comment": "Apollo Hospitals presents a compelling case with strong growth metrics and sector tailwinds. The demerger and tier-2 expansion are credible catalysts, though deeper financial due diligence on capital structure would strengthen the thesis.",
+    "strengths": [
+      "Strong fundamentals with 15% revenue CAGR and 20% EBITDA margins",
+      "Clear value unlock from demerger of health businesses",
+      "Expansion into tier-2 cities with 2000 new beds by FY25"
+    ],
+    "weaknesses": [
+      "Limited discussion on debt levels or cash flow sustainability",
+      "Technical analysis lacks depth (RSI/MA20 mentioned but not contextualized)"
+    ],
+    "key_catalysts": [
+      "NSE cleared demerger of multiple health businesses unlocking value",
+      "Tier-2 city expansion adding 2000 beds by FY25",
+      "Digital health platform Apollo 24/7 reaching 1 crore users"
+    ],
+    "risks": [
+      "Regulatory changes in hospital billing rates affecting margins",
+      "High capex requirements for expansion may strain balance sheet"
+    ],
+    "thesis": "Apollo Hospitals is India's largest private hospital chain with 70%+ occupancy rates and expanding into tier-2 cities. Recent demerger of multiple health businesses unlocks value and improves operational efficiency. Strong fundamentals with 15% revenue CAGR and 20% EBITDA margins make it best pick among healthcare stocks.",
+    "all_analysts": {
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd",
+        "confidence": 0.85,
+        "recommendation": "BUY",
+        "target_price_inr": 7800.0,
+        "upside_pct": 20.0,
+        "thesis": "Apollo Hospitals is India's largest private hospital chain with 70%+ occupancy rates and expanding into tier-2 cities. Recent demerger of multiple health businesses unlocks value and improves operational efficiency. Strong fundamentals with 15% revenue CAGR and 20% EBITDA margins make it best pick among healthcare stocks.",
+        "catalysts": [
+          "NSE cleared demerger of multiple health businesses unlocking value",
+          "Tier-2 city expansion adding 2000 beds by FY25",
+          "Digital health platform Apollo 24/7 reaching 1 crore users"
+        ],
+        "risks": [
+          "Regulatory changes in hospital billing rates affecting margins",
+          "High capex requirements for expansion may strain balance sheet"
+        ]
+      },
+      "tech": {
+        "ticker": "TCS.NS",
+        "company": "Tata Consultancy Services",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 3450.0,
+        "upside_pct": 9.7,
+        "thesis": "TCS remains the most defensive large-cap IT play in India, trading at 24x FY25E EPS\u2014only a 7% premium to Infosos despite superior 29% ROE and 4% dividend yield. Recent \u20b927 crore block suggests institutional accumulation at 3145 levels. With margin tailwinds from depreciating rupee and faster deal ramp-ups, TCS is best positioned to capture revival in discretionary spends.",
+        "catalysts": [
+          "Q2FY25 deal ramp-ups in BFSI & retail",
+          "Rupee depreciation adding 40 bps to margin",
+          "Large block trade indicating institutional accumulation"
+        ],
+        "risks": [
+          "Global macro uncertainty delaying discretionary spends",
+          "TCS trading at 24x FY25E\u2014richer than Infosos"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.82,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.7,
+        "thesis": "ONGC trades at 5.5x FY24E EPS versus 7x sector average, offers 7% dividend yield, and sits on 4.5 billion barrels of domestic reserves. Recent \u20b922 crore block at \u20b9285 signals institutional accumulation ahead of gas pricing reforms and KG basin new finds. Company monetizes high-margin gas while crude stays above $80, lifting EPS 18% YoY.",
+        "catalysts": [
+          "KG-DWN-98/2 field start-up adds 45 mboepd by FY25",
+          "Gas pricing formula revision ceiling to $6.5/mmbtu",
+          "ONGC sold 45 mboepd KG basin discoveries to OIL at premium"
+        ],
+        "risks": [
+          "KG-DWN-98/2 project cost over-run to $5.5 billion",
+          "Crude slump below $70 cuts EPS 12%"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-04-07",
+    "time_ist": "07:05 UTC",
+    "ticker": "TCS.NS",
+    "company": "Tata Consultancy Services Limited",
+    "sector": "tech",
+    "entry_price": 3100.0,
+    "target_price": 3450.0,
+    "stop_loss": 2900.0,
+    "shares_to_buy": 0,
+    "capital_used_inr": 0.0,
+    "position_size_pct": 6.2,
+    "expected_return_pct": 11.29,
+    "risk_reward": 1.83,
+    "time_horizon": "4 weeks",
+    "judge_score": 7.8,
+    "grade": "B",
+    "judge_comment": "The thesis is well-supported with concrete metrics and institutional signals, but the aggressive 4-week time horizon may not allow sufficient time for catalysts to materialize. The risk/reward profile is acceptable, though margin compression risks warrant closer monitoring.",
+    "strengths": [
+      "Strong evidence grounding with specific metrics (e.g., $11.2B Q2 order book, 25% AI/Cloud growth)",
+      "Clear institutional support signal from recent block trade at current price",
+      "Balanced risk assessment including both macro (US recession) and operational (wage inflation) risks"
+    ],
+    "weaknesses": [
+      "Time horizon of 4 weeks may be too short for a large-cap IT stock with typical 6-12 month investment cycles",
+      "Limited analysis of competitive positioning against peers like Infosys or Wipro"
+    ],
+    "key_catalysts": [
+      "Strong Q2 order book at $11.2B with 50% from new customers",
+      "AI & Cloud revenue growing 25% YoY, now 12% of total",
+      "Rs 19,000 cr buyback plan to support EPS and return ratios"
+    ],
+    "risks": [
+      "US recession fears could delay client discretionary spends",
+      "Wage inflation in digital skills may compress margins by 80-100 bps"
+    ],
+    "thesis": "TCS continues to show resilient deal momentum with large enterprise wins in cloud and AI, while maintaining industry-leading margins. Recent block trade at \u20b93,145.70 signals institutional accumulation. Strong balance sheet and consistent dividend policy make it a defensive growth play in volatile macros.",
+    "all_analysts": {
+      "tech": {
+        "ticker": "TCS.NS",
+        "company": "Tata Consultancy Services Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 3450.0,
+        "upside_pct": 9.7,
+        "thesis": "TCS continues to show resilient deal momentum with large enterprise wins in cloud and AI, while maintaining industry-leading margins. Recent block trade at \u20b93,145.70 signals institutional accumulation. Strong balance sheet and consistent dividend policy make it a defensive growth play in volatile macros.",
+        "catalysts": [
+          "Strong Q2 order book at $11.2B with 50% from new customers",
+          "AI & Cloud revenue growing 25% YoY, now 12% of total",
+          "Rs 19,000 cr buyback plan to support EPS and return ratios"
+        ],
+        "risks": [
+          "US recession fears could delay client discretionary spends",
+          "Wage inflation in digital skills may compress margins by 80-100 bps"
+        ]
+      },
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 9200.0,
+        "upside_pct": 16.5,
+        "thesis": "Apollo Hospitals is consolidating its diversified healthcare services through a demerger that unlocks value across diagnostics, digital health and specialty clinics. The move simplifies the corporate structure, improves capital allocation and allows sharper strategic focus on core hospital operations while monetizing high-growth verticals. With India\u2019s healthcare spend expected to reach 3% of GDP by 2026 and medical tourism rebounding, Apollo is best-positioned to capture both domestic demand and inbound patients through its pan-India network and strong brand equity.",
+        "catalysts": [
+          "NSE clearance of multi-business demerger to unlock value and improve ROIC",
+          "Government\u2019s \u20b950k cr PM-Ayushman expansion to boost tertiary care volumes",
+          "Medical tourism visas crossing pre-COVID levels with Apollo commanding 15% market share"
+        ],
+        "risks": [
+          "Demerger execution delays could defer planned value-realization timeline",
+          "Competition from low-cost regional hospital chains pressuring ARPOB growth"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.7,
+        "thesis": "ONGC trades at 5.3x FY25E EPS despite Brent crude stabilizing above $80/bbl, translating into FY24-26 EPS CAGR of 18%. Recent \u20b922.2 cr block at \u20b9285 signals institutional accumulation ahead of Q4 results where higher crude realizations and KG-DWN-98/2 field ramp-up should drive 25% YoY PAT growth. Government\u2019s gas pricing reform (APM ceiling raised to $6.5/mmbtu) adds \u20b912-14/share to NAV while 6.3% dividend yield offers downside protection in volatile markets.",
+        "catalysts": [
+          "Q4 FY24 results on 23-May: consensus PAT \u20b914,300 cr (+25% YoY) on $81/bbl crude and 7% YoY gas output growth",
+          "KG-DWN-98/2 Phase-II start-up in Jun-24 adds 45 kboe/d at $35/bbl breakeven lifting group EPS by 12%",
+          "Government likely to approve 10% gas price premium over ceiling for new deep-water fields boosting FY25-26 EBITDA by \u20b94,500 cr"
+        ],
+        "risks": [
+          "Windfall-tax threshold lowered to $75/bbl in Jul-24 Budget could slash FY25 EPS by \u20b96 if Brent stays >$80",
+          "ONGC\u2019s 25% stake in Russian Sakhalin-1 faces escalating sanctions risk and dividend blockage"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  },
+  {
+    "date": "2026-04-08",
+    "time_ist": "07:08 UTC",
+    "ticker": "ONGC.NS",
+    "company": "Oil and Natural Gas Corporation Limited",
+    "sector": "energy",
+    "entry_price": 285.35,
+    "target_price": 330.0,
+    "stop_loss": 260.0,
+    "shares_to_buy": 1,
+    "capital_used_inr": 285.35,
+    "position_size_pct": 9.74,
+    "expected_return_pct": 15.57,
+    "risk_reward": 2.05,
+    "time_horizon": "12 weeks",
+    "judge_score": 8.0,
+    "grade": "B",
+    "judge_comment": "ONGC's valuation and institutional buying make it compelling, but position sizing needs adjustment. The energy sector exposure and medium risk profile require careful monitoring, but upside/downside balance is reasonable for a B-grade recommendation.",
+    "strengths": [
+      "Strong valuation anchor at 5.5x FY25E EPS with clear catalysts (KG-DW-98/2 ramp-up, gas pricing reforms)",
+      "Institutional confidence evidenced by \u20b922.18 crore block trade at current price",
+      "Defensive 6%+ dividend yield provides downside protection in volatile energy markets"
+    ],
+    "weaknesses": [
+      "Position sizing at 9.74% exceeds standard 5-7% allocation for concentrated plays",
+      "12-week time horizon may be too short for capital-intensive upstream projects to materialize"
+    ],
+    "key_catalysts": [
+      "KG-DW-98/2 Phase-II start-up by Q4FY25 adds 45k boepd",
+      "Domestic gas price ceiling raised 10% for H2FY25 lifting EBITDA",
+      "ONGC Videsh\u2019s Mozambique LNG FID expected Q1CY26 unlocking 8 mtpa reserves"
+    ],
+    "risks": [
+      "Windfall tax resets monthly; any crude dip below $70/bbl triggers levy reduction but hurts realizations",
+      "ONGC\u2019s subsidy share if retail LPG/kerosene prices are frozen ahead of elections"
+    ],
+    "thesis": "ONGC is attractively valued at ~5.5x FY25E EPS despite Brent crude stabilizing above $75/bbl, which boosts upstream realizations. Recent \u20b922.18 crore block trade at \u20b9285.35 signals institutional accumulation. Government\u2019s gas pricing reforms and KG-DW-98/2 field ramp-up add volume visibility, while dividend yield >6% offers downside protection in volatile markets.",
+    "all_analysts": {
+      "healthcare": {
+        "ticker": "APOLLOHOSP.NS",
+        "company": "Apollo Hospitals Enterprise Ltd.",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 7800.0,
+        "upside_pct": 11.5,
+        "thesis": "Apollo Hospitals is demerging its pharmacy and digital health businesses, unlocking value and sharpening focus on high-margin hospital operations. The NSE clearance triggered a 2% rally, and block deals at \u20b96,998 show institutional confidence. With India\u2019s healthcare spend rising post-COVID and Apollo\u2019s dominant bed capacity, the stock is re-rating on both fundamentals and corporate structure.",
+        "catalysts": [
+          "NSE-approved demerger of pharmacy & digital arms to unlock value by Q4 FY24",
+          "Expansion of 1,000+ new beds across Mumbai and Bengaluru to lift ARPOB",
+          "Government\u2019s \u20b95 lakh crore health-outlay boosting patient inflows to tertiary care chains"
+        ],
+        "risks": [
+          "Execution risk on demerger timelines could delay promised value unlocking",
+          "Higher nurse wages and imported medical device costs may compress EBITDA margins by 100-150 bps"
+        ]
+      },
+      "energy": {
+        "ticker": "ONGC.NS",
+        "company": "Oil and Natural Gas Corporation Limited",
+        "confidence": 8.2,
+        "recommendation": "BUY",
+        "target_price_inr": 330.0,
+        "upside_pct": 15.6,
+        "thesis": "ONGC is attractively valued at ~5.5x FY25E EPS despite Brent crude stabilizing above $75/bbl, which boosts upstream realizations. Recent \u20b922.18 crore block trade at \u20b9285.35 signals institutional accumulation. Government\u2019s gas pricing reforms and KG-DW-98/2 field ramp-up add volume visibility, while dividend yield >6% offers downside protection in volatile markets.",
+        "catalysts": [
+          "KG-DW-98/2 Phase-II start-up by Q4FY25 adds 45k boepd",
+          "Domestic gas price ceiling raised 10% for H2FY25 lifting EBITDA",
+          "ONGC Videsh\u2019s Mozambique LNG FID expected Q1CY26 unlocking 8 mtpa reserves"
+        ],
+        "risks": [
+          "Windfall tax resets monthly; any crude dip below $70/bbl triggers levy reduction but hurts realizations",
+          "ONGC\u2019s subsidy share if retail LPG/kerosene prices are frozen ahead of elections"
+        ]
+      },
+      "tech": {
+        "ticker": "INFY.NS",
+        "company": "Infosys Limited",
+        "confidence": 0.78,
+        "recommendation": "BUY",
+        "target_price_inr": 2100.0,
+        "upside_pct": 12.9,
+        "thesis": "Infosys raised FY24 revenue guidance to 4-7% constant-currency growth after a strong Q2 beat, signalling resilient demand in cloud and digital deals. Margin defence via pyramid optimisation and lower attrition (now 17.3%) is bearing fruit, while a $1.5 bn order book addition gives multi-quarter revenue cover. Valuation at 22\u00d7 FY25e EPS sits below its 5-yr median of 24\u00d7, offering favourable risk-reward as global tech budgets stabilise.",
+        "catalysts": [
+          "Guidance upgrade to 4-7% vs street at 5% adds 2-3% EPS upside",
+          "Large-deal TCV of $3.2 bn YTD with 30% from cost-take-out deals that are recession-resilient",
+          "Strongest ever cash conversion (104% OCF/EBITDA) supports 90% payout and potential special dividend"
+        ],
+        "risks": [
+          "US recession could push client discretionary spends lower and jeopardise the upper end of guidance",
+          "Attrition uptick possible if H-1B visa rules tighten under a potential US political shift"
+        ]
+      }
+    },
+    "pass_mark": "PASS",
+    "actual_price": null,
+    "price_change": null,
+    "outcome": null,
+    "reward": null
+  }
+]

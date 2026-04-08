@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.log
+baseline_results.json
+chroma_db/
+/tmp/

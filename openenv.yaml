@@ -1,0 +1,280 @@
+# openenv.yaml — Stocky OpenEnv Environment Specification
+# Indian Stock Market Multi-Agent Recommendation Environment
+# Scaler School of Technology Hackathon Submission
+
+name: stocky-openenv
+version: "1.0.0"
+description: >
+  A real-world OpenEnv environment that simulates an Indian stock market
+  multi-agent recommendation pipeline. An AI agent learns to analyze NSE/BSE
+  stocks using technical indicators, fundamental data, and news — then
+  orchestrate a Swarm-architecture pipeline of analyst, supervisor, strategist,
+  compliance, and judge agents to generate daily trade recommendations.
+tags:
+  - openenv
+  - finance
+  - stock-market
+  - multi-agent
+  - india
+  - NSE
+  - real-world
+
+author: "Scaler Hackathon Submission"
+license: MIT
+
+# ─── Environment API ──────────────────────────────────────────────────────────
+api:
+  base_url: "http://localhost:7860"
+  endpoints:
+    reset:
+      method: POST
+      path: /reset
+      body:
+        task: string        # Task name (see tasks section)
+        seed: integer       # Random seed for reproducibility
+      returns: StepResult
+
+    step:
+      method: POST
+      path: /step
+      body:
+        session_id: string
+        action:
+          message: string   # Natural language action from agent
+      returns: StepResult
+
+    state:
+      method: GET
+      path: /state
+      params:
+        session_id: string
+      returns: StateInfo
+
+    close:
+      method: DELETE
+      path: /close
+      params:
+        session_id: string
+
+    health:
+      method: GET
+      path: /health
+
+# ─── Observation Space ────────────────────────────────────────────────────────
+observation_space:
+  type: structured
+  fields:
+    echoed_message:
+      type: string
+      description: "The agent's last message echoed back for context"
+
+    market_snapshot:
+      type: dict
+      description: >
+        Per-ticker market data dictionary.
+        Keys: ticker symbols (e.g., TCS.NS)
+        Values: {price, rsi, ma20, ma50, chg5d, pe, volume, signal}
+      example:
+        TCS.NS:
+          price: 3842.0
+          rsi: 61.2
+          ma20: 3780.0
+          ma50: 3650.0
+          chg5d: 1.8
+          pe: 28.4
+          volume: 1200000
+          signal: "BULLISH"
+
+    news_headlines:
+      type: list[string]
+      description: "Recent news headlines relevant to the task's sector(s)"
+      example:
+        - "TCS wins $500M digital transformation deal from UK retailer"
+        - "Nifty 50 trades at 18-month high; FII inflows cross $2B"
+
+    agent_feedback:
+      type: string
+      description: "Grader feedback on the agent's last action with hints for improvement"
+
+    task_name:
+      type: string
+      description: "Active task identifier"
+
+    task_description:
+      type: string
+      description: "Full description of what the agent needs to accomplish"
+
+    step_count:
+      type: integer
+      description: "Current step number (1-indexed)"
+
+    max_steps:
+      type: integer
+      description: "Maximum steps allowed for this task"
+
+    reward_breakdown:
+      type: dict
+      description: "Partial reward components accumulated so far"
+      example:
+        ticker_identified: 0.25
+        signal_alignment: 0.25
+        reasoning_quality: 0.22
+
+    history_summary:
+      type: string
+      description: "Summary of past prediction performance (win rate, recent outcomes)"
+
+    valid_tickers:
+      type: list[string]
+      description: "Valid NSE tickers available for this task"
+      example: ["TCS.NS", "INFY.NS", "WIPRO.NS", "HCLTECH.NS", "TECHM.NS"]
+
+# ─── Action Space ─────────────────────────────────────────────────────────────
+action_space:
+  type: natural_language
+  fields:
+    message:
+      type: string
+      max_length: 2000
+      description: >
+        Free-form natural language action. The agent should include:
+        - Specific stock ticker(s) in format SYMBOL.NS
+        - Numerical price levels in INR
+        - Technical analysis (RSI, moving averages)
+        - Fundamental reasoning (catalysts, risks)
+        - SEBI compliance parameters where relevant
+
+  action_tips:
+    - "Always reference tickers in SYMBOL.NS format (e.g., TCS.NS)"
+    - "Include numerical values for price levels in INR"
+    - "Mention RSI, MA20, MA50 values for higher reasoning rewards"
+    - "State confidence score (e.g., 'confidence: 8/10') explicitly"
+    - "For trade plans: entry < target, stop_loss < entry"
+
+# ─── Tasks ────────────────────────────────────────────────────────────────────
+tasks:
+
+  - id: identify_top_stock
+    name: "Identify Top Stock"
+    difficulty: easy
+    max_steps: 5
+    max_total_reward: 5.0
+    description: >
+      Given live market data for the TECHNOLOGY sector (5 NSE stocks),
+      identify the single best stock to BUY today.
+      Required: ticker symbol, RSI/MA analysis, catalysts, confidence score.
+    tickers: ["TCS.NS", "INFY.NS", "WIPRO.NS", "HCLTECH.NS", "TECHM.NS"]
+    expected_baseline_score: 0.72
+    reward_components:
+      ticker_identified:    0.25   # Valid ticker mentioned
+      signal_alignment:     0.25   # Ticker has positive RSI + momentum
+      reasoning_quality:    0.30   # Keywords: RSI, MA, catalyst, etc.
+      confidence_stated:    0.20   # Explicit confidence score
+    success_threshold: 0.60
+
+  - id: create_trade_plan
+    name: "Create SEBI-Compliant Trade Plan"
+    difficulty: medium
+    max_steps: 8
+    max_total_reward: 8.0
+    description: >
+      Given a stock pitch for Infosys (INFY.NS) at Rs.1,545, create a
+      SEBI-compliant trade plan. Requirements:
+      - stop_loss < entry_price < target_price (all in INR)
+      - risk_reward_ratio >= 1.5
+      - position_size_pct <= 10%
+      - time_horizon specified
+      Iterate based on compliance feedback.
+    tickers: ["INFY.NS"]
+    expected_baseline_score: 0.65
+    reward_components:
+      prices_provided:   0.20   # All 3 price levels given
+      price_ordering:    0.20   # Valid SL < entry < target
+      risk_reward:       0.25   # R/R >= 1.5
+      position_size:     0.15   # position <= 10%
+      time_horizon:      0.10   # Time horizon stated
+      compliance_notes:  0.10   # SEBI notes included
+    success_threshold: 0.60
+
+  - id: full_pipeline_recommendation
+    name: "Full Multi-Agent Pipeline"
+    difficulty: hard
+    max_steps: 15
+    max_total_reward: 15.0
+    description: >
+      Orchestrate the complete Swarm-architecture pipeline across 3 sectors:
+      1. Analyst agent: analyze each sector (tech, energy, healthcare)
+      2. Supervisor agent: select best stock across sectors
+      3. Strategist agent: build trade plan with entry/target/stop-loss
+      4. Compliance agent: validate SEBI rules
+      5. Judge agent: score recommendation 0-10
+      6. Final: write complete recommendation summary
+      Partial rewards are given at each stage.
+    tickers:
+      - "TCS.NS"
+      - "INFY.NS"
+      - "WIPRO.NS"
+      - "RELIANCE.NS"
+      - "ONGC.NS"
+      - "NTPC.NS"
+      - "SUNPHARMA.NS"
+      - "DRREDDY.NS"
+      - "CIPLA.NS"
+    expected_baseline_score: 0.55
+    reward_stages:
+      sector_analysis:     0.21   # Steps 1-3: 0.07 per sector
+      supervisor_selection: 0.10  # Steps 4-6: best pick selected
+      trade_plan:          0.15   # Steps 7-9: complete trade plan
+      compliance:          0.15   # Steps 10-11: SEBI checks
+      judge_scoring:       0.20   # Steps 12-13: score/10
+      final_recommendation: 0.35  # Steps 14-15: completeness
+    success_threshold: 0.50
+
+# ─── Reward Function ──────────────────────────────────────────────────────────
+reward_function:
+  type: composite_partial_progress
+  range: [0.0, 1.0]
+  description: >
+    Rewards are given per-step with partial credit for progress.
+    Final episode score = sum(step_rewards) / max_total_reward, clamped to [0,1].
+  properties:
+    - partial_credit: true       # Agent gets reward even for incomplete actions
+    - cumulative: true           # Rewards accumulate across steps
+    - dense: true                # Feedback every step (not just at episode end)
+    - deterministic: true        # Same input always gives same reward
+
+# ─── Baseline Scores ──────────────────────────────────────────────────────────
+baseline_scores:
+  heuristic_agent:
+    identify_top_stock:            0.72
+    create_trade_plan:             0.65
+    full_pipeline_recommendation:  0.55
+    average:                       0.64
+
+  random_agent:
+    identify_top_stock:            0.15
+    create_trade_plan:             0.12
+    full_pipeline_recommendation:  0.08
+    average:                       0.12
+
+# ─── Docker / Deployment ──────────────────────────────────────────────────────
+docker:
+  image: "stocky-openenv:latest"
+  port: 7860
+  build_command: "docker build -t stocky-openenv ."
+  run_command: "docker run -p 7860:7860 stocky-openenv"
+  env_vars:
+    required: []              # No API keys needed for basic env (uses mock data)
+    optional:
+      - GROQ_KEY_1            # For live LLM-powered pipeline
+      - GROQ_KEY_2
+      - FINNHUB_API_KEY       # For live stock data
+      - GMAIL_SENDER          # For email reports
+      - GMAIL_RECEIVER
+      - GMAIL_PASSWORD
+      - PORTFOLIO_SIZE_INR    # Default: 100000
+
+huggingface:
+  space_url: "https://huggingface.co/spaces/your-username/stocky-openenv"
+  sdk: docker
+  tags: [openenv, finance, multi-agent, india]
