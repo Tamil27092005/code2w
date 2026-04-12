@@ -1,22 +1,30 @@
 """
-inference.py — Stocky OpenEnv Baseline Inference Script
+inference.py — Stocky OpenEnv Inference Script
 
-Runs a heuristic agent against all 3 tasks and prints structured
-[START]/[STEP]/[END] blocks required by the OpenEnv validator.
+Uses the LiteLLM proxy provided by the validator via:
+  - API_BASE_URL  : LLM proxy endpoint
+  - API_KEY       : Proxy API key
+  - MODEL_NAME    : Model to use for inference
+  - HF_TOKEN      : HuggingFace API token
+
+Prints structured [START]/[STEP]/[END] blocks to stdout.
 """
 
 import asyncio
-import argparse
+import os
 import json
-import time
-import sys
-from typing import List, Optional, Dict
-
+from typing import List, Dict
+from openai import AsyncOpenAI
 from stocky_env import StockyEnv, StockyAction
 
-# ─── Configuration ────────────────────────────────────────────────────────────
+# ─── Configuration from environment ──────────────────────────────────────────
 
-DEFAULT_URL       = "https://TamilSelvan0709-code2w-space.hf.space"
+API_BASE_URL = os.environ.get("API_BASE_URL", "https://api.openai.com/v1")
+API_KEY      = os.environ.get("API_KEY", os.environ.get("OPENAI_API_KEY", ""))
+MODEL_NAME   = os.environ.get("MODEL_NAME", "gpt-4o-mini")
+HF_TOKEN     = os.environ.get("HF_TOKEN", "")
+SERVER_URL   = os.environ.get("SPACE_URL", "https://TamilSelvan0709-code2w-space.hf.space")
+
 SUCCESS_THRESHOLD = 0.60
 
 TASKS_TO_RUN = [
@@ -31,121 +39,7 @@ MAX_TOTAL_REWARD_PER_TASK = {
     "full_pipeline_recommendation": 1.0,
 }
 
-# ─── Heuristic Playbooks ──────────────────────────────────────────────────────
-
-HEURISTIC_PLAYBOOKS = {
-    "identify_top_stock": [
-        (
-            "After analyzing the tech sector market data, I recommend TCS.NS (Tata Consultancy Services). "
-            "Technical analysis: RSI at 61.2 is in bullish territory (50-70 range), well above MA20 (3780) "
-            "and MA50 (3650), indicating strong uptrend. 5-day momentum is +1.8%. "
-            "Fundamental catalyst: TCS won a $500M digital transformation deal from UK retailer, "
-            "signaling strong order book. Revenue growth of 15% YoY in cloud services supports thesis. "
-            "Technical view: above all moving averages, volume steady. "
-            "Confidence: 8/10. Risks: USD/INR headwind, US banking slowdown."
-        ),
-        (
-            "Confirming TCS.NS as top pick. RSI 61 shows momentum without being overbought. "
-            "Catalyst: $500M deal win drives earnings upgrade cycle. "
-            "Entry near MA20 support. Confidence: 8/10."
-        ),
-    ],
-    "create_trade_plan": [
-        (
-            "Trade plan for INFY.NS (Infosys):\n"
-            "entry: 1550, target: 1720, stop_loss: 1480\n"
-            "Risk/reward ratio: (1720-1550)/(1550-1480) = 170/70 = 2.43x\n"
-            "position size: 8% of portfolio\n"
-            "Time horizon: 4 weeks\n"
-            "Entry strategy: Limit order at 1550 at market open\n"
-            "Exit strategy: GTT order at target 1720 and stop-loss 1480\n"
-            "SEBI compliant: position size under 10%, R/R ratio above 1.5."
-        ),
-        (
-            "Refined plan: entry: 1550, target: 1720, stop_loss: 1478\n"
-            "risk_reward: 2.45x, position size: 8%, time horizon: 4 weeks\n"
-            "Compliance note: stop_loss(1478) < entry(1550) < target(1720)\n"
-            "Max loss: Rs.7,200 | Max profit: Rs.17,000 | SEBI compliant: yes"
-        ),
-        (
-            "Final approved plan: INFY.NS entry 1550 target 1720 stop_loss 1475\n"
-            "R/R=2.5x, position=8%, time horizon 4 weeks. All SEBI checks passed."
-        ),
-    ],
-    "full_pipeline_recommendation": [
-        "Analyzing TECH sector: TCS.NS shows RSI 61, above MA20/MA50, strong bullish momentum. "
-        "5d change +1.8%. Catalyst: $500M deal win. Recommend TCS.NS confidence 8/10.",
-
-        "Analyzing ENERGY sector: NTPC.NS shows RSI 63, bullish above MA20 335 and MA50 320. "
-        "5d change +2.1%. Catalyst: 1.2GW solar capacity commissioned ahead of schedule. "
-        "Recommend NTPC.NS confidence 7/10.",
-
-        "Analyzing HEALTHCARE sector: SUNPHARMA.NS shows RSI 67, strong bullish, "
-        "above MA20 1650 and MA50 1600. 5d change +2.3%. Catalyst: 30% US market share gain. "
-        "Recommend SUNPHARMA.NS confidence 7.5/10.",
-
-        "Supervisor selection: After comparing all 3 sectors, I select SUNPHARMA.NS as the best pick today. "
-        "Reasons: Highest RSI momentum (67), best 5d performance (+2.3%), strong catalyst (FDA approvals), "
-        "healthcare sector defensive in current market. "
-        "Ranking: healthcare > tech > energy. Selected ticker: SUNPHARMA.NS",
-
-        "Confirming SUNPHARMA.NS as final pick. Market context: FII inflows strong, "
-        "pharma sector outperforming Nifty. Best risk-reward.",
-
-        "Final supervisor decision: SUNPHARMA.NS (Sun Pharma). Rejected NTPC (regulatory risk), "
-        "TCS (USD headwind). Sun Pharma specialty drug growth is the clearest catalyst.",
-
-        "Trade plan for SUNPHARMA.NS: entry: 1690, target: 1850, stop_loss: 1620\n"
-        "Risk/reward: (1850-1690)/(1690-1620) = 160/70 = 2.29x\n"
-        "Position size: 8%, Capital: Rs.8,000, Shares: 4, Time horizon: 3 weeks",
-
-        "Refining trade plan: entry 1690, target 1850, stop_loss 1625\n"
-        "entry strategy: limit buy at 1690 at market open\n"
-        "exit strategy: GTT at target 1850 and stop-loss 1625\n"
-        "Expected return: +9.5%",
-
-        "Final trade plan confirmed: SUNPHARMA.NS entry=1690 target=1850 stop_loss=1625 "
-        "R/R=2.14x position=8% time_horizon=3 weeks. All prices in INR.",
-
-        "Compliance check for SUNPHARMA.NS trade:\n"
-        "position_size: 8% (<=10% limit)\n"
-        "risk_reward ratio: 2.14x (>=1.5 required)\n"
-        "stop_loss: 1625 < entry: 1690 < target: 1850\n"
-        "SEBI compliant: no circuit breaker concerns\n"
-        "Compliance status: APPROVED",
-
-        "Compliance notes: risk_score = 3/10 (LOW RISK). Circuit breaker risk: LOW. "
-        "sebi_compliant: true. Final decision: BUY. Approved.",
-
-        "Judge evaluation of SUNPHARMA.NS recommendation:\n"
-        "score: 7.8/10\n"
-        "Strengths: Technical signal strong (RSI 67), Fundamental catalyst clear, "
-        "Risk management well-defined (R/R 2.14x)\n"
-        "Grade: B+. Would invest: yes.",
-
-        "Updated judge score: 7.8/10. Research quality: 8, Risk management: 8, "
-        "India market relevance: 9. Overall verdict: Strong buy case with clear catalysts.",
-
-        "FINAL RECOMMENDATION SUMMARY:\n"
-        "Ticker: SUNPHARMA.NS (Sun Pharma)\n"
-        "Action: BUY\n"
-        "Entry: Rs.1,690 | Target: Rs.1,850 | Stop-loss: Rs.1,625\n"
-        "Expected return: +9.5% | Risk/reward: 2.14x | Time horizon: 3 weeks\n"
-        "Compliance: SEBI approved, position 8%, risk score 3/10 LOW\n"
-        "Judge score: 7.8/10 (Grade B+). Confidence: HIGH.",
-
-        "Full pipeline complete. SUNPHARMA.NS is today's top pick. "
-        "All stages completed: sector analysis, supervisor selection, trade plan, "
-        "compliance validation, judge scoring. Final recommendation ready.",
-    ],
-}
-
-def get_heuristic_message(task: str, step: int) -> str:
-    playbook = HEURISTIC_PLAYBOOKS.get(task, [])
-    idx = min(step - 1, len(playbook) - 1)
-    return playbook[idx] if playbook else f"Step {step}: Analyzing market data for {task}."
-
-# ─── Structured Output Helpers ────────────────────────────────────────────────
+# ─── Structured Output ────────────────────────────────────────────────────────
 
 def print_start(task: str):
     print(f"[START] task={task}", flush=True)
@@ -156,9 +50,65 @@ def print_step(step: int, reward: float, done: bool):
 def print_end(task: str, score: float, steps: int):
     print(f"[END] task={task} score={round(score, 4)} steps={steps}", flush=True)
 
+# ─── LLM Agent ────────────────────────────────────────────────────────────────
+
+async def get_llm_message(
+    client: AsyncOpenAI,
+    task: str,
+    step: int,
+    obs,
+    history: List[str],
+) -> str:
+    system_prompt = (
+        f"You are an expert Indian stock market analyst using the OpenEnv framework.\n"
+        f"Task: {task}\n"
+        f"Description: {obs.task_description}\n"
+        f"Valid tickers: {', '.join(obs.valid_tickers)}\n"
+        f"You are on step {step} of {obs.max_steps}.\n"
+        f"Rules:\n"
+        f"- Always reference tickers in SYMBOL.NS format (e.g., TCS.NS)\n"
+        f"- Include numerical price levels in INR\n"
+        f"- Mention RSI, MA20, MA50 values\n"
+        f"- State confidence score explicitly (e.g., confidence: 8/10)\n"
+        f"- For trade plans: stop_loss < entry < target\n"
+        f"- Keep position_size <= 10%\n"
+        f"- Maintain risk_reward >= 1.5\n"
+    )
+
+    market_str = json.dumps(
+        {
+            t: {k: v for k, v in d.items() if k in ["price", "rsi", "ma20", "ma50", "chg5d", "signal"]}
+            for t, d in obs.market_snapshot.items()
+        },
+        indent=2,
+    )
+    news_str = "\n".join(f"- {n}" for n in obs.news_headlines[:5])
+
+    user_prompt = (
+        f"Step {step}/{obs.max_steps}\n"
+        f"Last feedback: {obs.agent_feedback}\n\n"
+        f"Market data:\n{market_str}\n\n"
+        f"Recent news:\n{news_str}\n\n"
+        f"Previous steps summary:\n" + ("\n".join(history[-3:]) if history else "None") +
+        f"\n\nProvide your next action. Be specific and detailed."
+    )
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user",   "content": user_prompt},
+    ]
+
+    response = await client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=messages,
+        max_tokens=600,
+        temperature=0.3,
+    )
+    return response.choices[0].message.content.strip()
+
 # ─── Task Runner ──────────────────────────────────────────────────────────────
 
-async def run_task(env_url: str, task_name: str) -> Dict:
+async def run_task(client: AsyncOpenAI, env_url: str, task_name: str) -> Dict:
     print_start(task_name)
 
     env = StockyEnv(base_url=env_url, task=task_name)
@@ -167,6 +117,7 @@ async def run_task(env_url: str, task_name: str) -> Dict:
     rewards: List[float] = []
     steps_taken = 0
     score = 0.0
+    history: List[str] = []
 
     try:
         result = await env.reset(task=task_name)
@@ -176,19 +127,24 @@ async def run_task(env_url: str, task_name: str) -> Dict:
             if result.done:
                 break
 
-            message = get_heuristic_message(task_name, step)
+            try:
+                message = await get_llm_message(client, task_name, step, result.observation, history)
+            except Exception as e:
+                print(f"[ERROR] LLM call failed at step={step}: {e}", flush=True)
+                message = f"Step {step}: Analyzing market data for {task_name}."
 
             try:
                 result = await env.step(StockyAction(message=message))
                 reward = result.reward or 0.0
                 done   = result.done
             except Exception as e:
-                print(f"[ERROR] step={step} error={e}", flush=True)
+                print(f"[ERROR] env step failed at step={step}: {e}", flush=True)
                 reward = 0.0
                 done   = True
 
             rewards.append(reward)
             steps_taken = step
+            history.append(f"Step {step}: {message[:120]} -> reward {reward:.4f}")
             print_step(step=step, reward=reward, done=done)
 
             if done:
@@ -217,19 +173,21 @@ async def run_task(env_url: str, task_name: str) -> Dict:
 # ─── Entry Point ──────────────────────────────────────────────────────────────
 
 async def main():
-    parser = argparse.ArgumentParser(description="Stocky OpenEnv Inference")
-    parser.add_argument("--url",  default=DEFAULT_URL, help="Server URL")
-    parser.add_argument("--task", default=None,        help="Run specific task only")
-    args = parser.parse_args()
+    # Initialise OpenAI client pointing to the validator's LiteLLM proxy
+    client = AsyncOpenAI(
+        base_url=API_BASE_URL,
+        api_key=API_KEY,
+    )
 
-    tasks = [args.task] if args.task else TASKS_TO_RUN
+    print(f"[INFO] API_BASE_URL={API_BASE_URL}", flush=True)
+    print(f"[INFO] MODEL_NAME={MODEL_NAME}", flush=True)
+    print(f"[INFO] SERVER_URL={SERVER_URL}", flush=True)
+
     results = []
-
-    for task in tasks:
-        result = await run_task(env_url=args.url, task_name=task)
+    for task in TASKS_TO_RUN:
+        result = await run_task(client=client, env_url=SERVER_URL, task_name=task)
         results.append(result)
 
-    # Print summary
     total_score = sum(r["score"] for r in results)
     avg = total_score / len(results) if results else 0.0
     print(f"[SUMMARY] avg_score={round(avg, 4)} tasks={len(results)}", flush=True)
