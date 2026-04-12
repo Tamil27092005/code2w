@@ -47,7 +47,7 @@ def print_start(task: str):
 def print_step(step: int, reward: float, done: bool):
     print(f"[STEP] step={step} reward={round(reward, 4)} done={str(done).lower()}", flush=True)
 
-def print_end(task: str, score: float, steps: int):
+def print_end(task: str, : float, steps: int):
     print(f"[END] task={task} score={round(score, 4)} steps={steps}", flush=True)
 
 # ─── LLM Agent ────────────────────────────────────────────────────────────────
@@ -152,9 +152,7 @@ async def run_task(client: AsyncOpenAI, env_url: str, task_name: str) -> Dict:
 
         max_total = MAX_TOTAL_REWARD_PER_TASK.get(task_name, 1.0)
         raw_score = sum(rewards)
-        score = min(max(raw_score / max_total if max_total > 0 else 0.0, 0.0), 1.0)
-
-    finally:
+        score = min(max(raw_score / max_total if max_total > 0 else 0.01, 0.01), 0.99)
         try:
             await env.close()
         except Exception:
